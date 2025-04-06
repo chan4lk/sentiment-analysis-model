@@ -1,0 +1,27 @@
+entry_id,ticket_ref_id,source_field,text_content,sentiment,resolution_time_minutes
+1,INC0012345,short_description,"Cannot login to VPN",Neutral,120
+2,INC0012345,description,"Since this morning, I cannot connect to the corporate VPN. Getting error code 789 'Connection timed out'. My colleague [User Name] in the same office has the same issue. This is blocking access to shared drives.",Negative,120
+3,INC0012345,comments,"Work Note: Checked VPN concentrator [Server Name]. Seeing multiple failed auth attempts from user's IP range. Investigating possible network block.",Neutral,120
+4,INC0012345,comments,"Additional Comment from User: Any update on this? It's been 2 hours and I still can't work.",Negative,120
+5,INC0012345,resolution_notes,"Firewall rule misconfiguration identified and corrected. Tested connection successfully with user [User Name]. Root cause analysis document attached.",Neutral,120
+6,REQ0054321,short_description,"Request new monitor",Neutral,1440
+7,REQ0054321,description,"Submitting request for a standard Dell U2419H monitor as per the approved hardware catalog. My current monitor is flickering badly.",Neutral,1440
+8,REQ0054321,comments,"Work Note: Request approved by manager [Manager Name]. Hardware ordered, ETA 1 business day.",Neutral,1440
+9,REQ0054321,resolution_notes,"Monitor delivered to user's desk and setup completed. User confirmed functionality.",Positive,1440
+10,INC0012377,short_description,"Email extremely slow",Negative,45
+11,INC0012377,description,"Outlook has been nearly unusable all morning. Emails take minutes to send/receive. Search is not working at all.",Negative,45
+12,INC0012377,resolution_notes,"Identified high load on Exchange server [Server Name]. Issue resolved after resource allocation adjustment. Monitoring performance.",Neutral,45
+13,INC0012377,comments,"Additional Comment from User: Much better now, thanks for the quick fix!",Positive,45
+14,INC0012400,short_description,"System Crash - Urgent",Negative,240
+15,INC0012400,description,"The production planning application crashed mid-process. Lost about 30 minutes of work. Need this back online ASAP, it's impacting manufacturing schedule!",Negative,240
+16,INC0012400,comments,"Work Note: Restarted application service. Monitoring logs for errors. Engaging App Support team.",Neutral,240
+17,INC0012400,comments,"Additional Comment from User: Is it stable now? I need confirmation before restarting the process.",Neutral,240
+18,INC0012400,resolution_notes,"Application service stabilized after restart. Root cause identified as memory leak (related to Change CHG009876). Permanent fix being developed by App Support. User advised service is stable for now.",Neutral,240
+19,REQ0054380,short_description,"Password Reset for [App Name]",Neutral,15
+20,REQ0054380,description,"User [User Name] requested a password reset for the [App Name] application.",Neutral,15
+21,REQ0054380,resolution_notes,"Password reset completed via self-service simulation tool. Provided user with temporary password via secure channel.",Positive,15
+22,INC0012501,short_description,"Printer not working",Negative,90
+23,INC0012501,description,"The printer [Printer Name] on the 3rd floor isn't printing. Jobs just disappear from the queue. Checked paper and toner, both are fine.",Negative,90
+24,INC0012501,comments,"Work Note: Found print spooler service hung on print server [Server Name]. Restarted service.",Neutral,90
+25,INC0012501,resolution_notes,"Restarted print spooler service which resolved the issue. Test page printed successfully. Confirmed with user.",Positive,90
+26,INC0012501,comments,"Additional Comment from User: Why does this keep happening every few weeks? It's really annoying.",Negative,90

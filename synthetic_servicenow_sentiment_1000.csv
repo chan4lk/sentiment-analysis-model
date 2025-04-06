@@ -1,0 +1,1001 @@
+entry_id,ticket_ref_id,source_field,text_content,sentiment,resolution_time_minutes
+1,INC18269,short_description,Cannot Login to Internal Portal,Negative,901
+2,INC18269,description,Cannot login to Internal Portal. Getting error E6357. Urgent!,Negative,901
+3,INC18269,comments,Checked logs on DB-INSTITUTION-51. Found error E5987.,Neutral,901
+4,INC18269,comments,Reset password for Jessica Hill and provided temporary one.,Neutral,901
+5,INC18269,comments,Any update on this request?,Neutral,901
+6,INC18269,resolution_notes,Finally working again after restart. Thanks!,Positive,901
+7,INC18270,short_description,Login Problem Salesforce,Neutral,1099
+8,INC18270,description,System crash on DB-LESS-59. Lost work. Please investigate immediately.,Negative,1099
+9,INC18270,resolution_notes,User Haley Luna confirmed resolution.,Positive,1099
+10,INC18271,short_description,Network Slow in New Jamesstad,Negative,420
+11,INC18271,description,Error W3544 when trying to access the shared drive.,Negative,420
+12,INC18271,resolution_notes,Thanks! HR System is working perfectly now.,Positive,420
+13,INC18272,short_description,Urgent: Outlook Access Issue,Negative,1400
+14,INC18272,description,HR System is extremely slow today. Taking minutes to load.,Negative,1400
+15,INC18272,resolution_notes,"Excellent support, problem fixed.",Positive,1400
+16,INC18273,short_description,Issue with laptop,Neutral,1105
+17,INC18273,description,Network connection keeps dropping in Scottside office.,Negative,1105
+18,INC18273,comments,Attempted remote connection to user's machine. Failed.,Neutral,1105
+19,INC18273,resolution_notes,The new mouse works great. Setup was smooth.,Positive,1105
+20,INC18274,short_description,Network Slow in New Amandaland,Negative,211
+21,INC18274,description,This is unacceptable performance for SAP.,Negative,211
+22,INC18274,comments,Any update on this request?,Neutral,211
+23,INC18274,resolution_notes,Issue resolved quickly. Appreciate the help from Security Ops.,Positive,211
+24,INC18275,short_description,Connectivity Error,Neutral,607
+25,INC18275,description,My laptop is broken. Need a replacement ASAP.,Negative,607
+26,INC18275,comments,Following up as requested.,Neutral,607
+27,INC18275,comments,Investigating network latency between Jamesshire and DC.,Neutral,607
+28,INC18275,resolution_notes,Closed per user request.,Neutral,607
+29,REQ51191,short_description,Request for Outlook Access,Neutral,183
+30,REQ51191,description,Password reset required for Gary Ortiz's account.,Neutral,183
+31,REQ51191,resolution_notes,Software installed and verified with user.,Neutral,183
+32,REQ51192,short_description,Request for VPN Client Access,Neutral,879
+33,REQ51192,description,User Dana Baker reporting issue with printer at Javierbury.,Neutral,879
+34,REQ51192,resolution_notes,Finally working again after restart. Thanks!,Positive,879
+35,REQ51193,short_description,Request for Finance Tool Access,Neutral,965
+36,REQ51193,description,Hardware refresh needed for Robert Walker. See attached list.,Neutral,965
+37,REQ51193,resolution_notes,Finally working again after restart. Thanks!,Positive,965
+38,INC18276,short_description,Cannot Login to Outlook,Negative,1047
+39,INC18276,description,My desk phone is broken. Need a replacement ASAP.,Negative,1047
+40,INC18276,comments,Just checking in on the status.,Neutral,1047
+41,INC18276,comments,Is there any further information needed from my side?,Neutral,1047
+42,INC18276,comments,Is anyone working on this??,Negative,1047
+43,INC18276,resolution_notes,User Amanda Zuniga confirmed resolution.,Positive,1047
+44,INC18277,short_description,Cannot Login to HR System,Negative,877
+45,INC18277,description,Still waiting for an update on my issue from yesterday.,Negative,877
+46,INC18277,comments,Gathering more information from user Jeffrey Barrera.,Neutral,877
+47,INC18277,comments,Investigating network latency between Knightburgh and DC.,Neutral,877
+48,INC18277,comments,Is there any further information needed from my side?,Neutral,877
+49,INC18277,resolution_notes,User John Smith confirmed resolution.,Positive,877
+50,INC18278,short_description,Login Problem Internal Portal,Neutral,217
+51,INC18278,description,Frustrated with the constant issues with the laptop.,Negative,217
+52,INC18278,comments,Assigned ticket to Network Team.,Neutral,217
+53,INC18278,comments,Is there any further information needed from my side?,Neutral,217
+54,INC18278,comments,Following up as requested.,Neutral,217
+55,INC18278,resolution_notes,User Justin Romero confirmed issue resolved after clearing cache.,Neutral,217
+56,INC18279,short_description,Connectivity Error,Neutral,1265
+57,INC18279,description,Network connection keeps dropping in Johnnyberg office.,Negative,1265
+58,INC18279,comments,Attempted remote connection to user's machine. Failed.,Neutral,1265
+59,INC18279,comments,This is taking too long.,Negative,1265
+60,INC18279,comments,Escalating issue to Tier 3 support / App Support Team.,Neutral,1265
+61,INC18279,resolution_notes,Access granted. Thank you for the prompt response.,Positive,1265
+62,INC18280,short_description,Urgent: Salesforce Access Issue,Negative,262
+63,INC18280,description,Frustrated with the constant issues with the keyboard.,Negative,262
+64,INC18280,comments,Following up as requested.,Neutral,262
+65,INC18280,comments,Gathering more information from user Tyler Carrillo.,Neutral,262
+66,INC18280,comments,Reset password for Gregory Miller and provided temporary one.,Neutral,262
+67,INC18280,resolution_notes,The new desk phone works great. Setup was smooth.,Positive,262
+68,REQ51194,short_description,Software Installation Teams,Neutral,3429
+69,REQ51194,description,Following up on previous ticket INC17725.,Neutral,3429
+70,REQ51194,resolution_notes,Software installed and verified with user.,Neutral,3429
+71,INC18281,short_description,Network Slow in Millershire,Negative,574
+72,INC18281,description,Frustrated with the constant issues with the keyboard.,Negative,574
+73,INC18281,comments,Ordered replacement laptop. ETA 2 days.,Neutral,574
+74,INC18281,comments,Escalating issue to Tier 3 support / Desktop Support.,Neutral,574
+75,INC18281,resolution_notes,Great job on resolving the outage so fast!,Positive,574
+76,REQ51195,short_description,Software Installation HR System,Neutral,3441
+77,REQ51195,description,Password reset required for Jeffrey Smith's account.,Neutral,3441
+78,REQ51195,resolution_notes,User Heidi Mahoney confirmed resolution.,Positive,3441
+79,REQ51196,short_description,Password Reset,Neutral,429
+80,REQ51196,description,Password reset required for Steven Weber's account.,Neutral,429
+81,REQ51196,comments,Following up as requested.,Neutral,429
+82,REQ51196,resolution_notes,Network configuration corrected by Security Ops.,Neutral,429
+83,REQ51197,short_description,Information Request,Neutral,3567
+84,REQ51197,description,Requesting information on how to configure MFA.,Neutral,3567
+85,REQ51197,resolution_notes,Password reset completed. User able to login.,Neutral,3567
+86,INC18282,short_description,Teams Down,Negative,399
+87,INC18282,description,Error E6279 when trying to access the shared drive.,Negative,399
+88,INC18282,comments,Attempted remote connection to user's machine. Failed.,Neutral,399
+89,INC18282,comments,Assigned ticket to Network Team.,Neutral,399
+90,INC18282,resolution_notes,Replaced faulty keyboard. Asset tag updated.,Neutral,399
+91,INC18283,short_description,printer Broken,Negative,698
+92,INC18283,description,My monitor is broken. Need a replacement ASAP.,Negative,698
+93,INC18283,comments,Monitoring system performance after patch deployment.,Neutral,698
+94,INC18283,comments,Assigned ticket to Server Support.,Neutral,698
+95,INC18283,resolution_notes,Password reset completed. User able to login.,Neutral,698
+96,INC18284,short_description,Login Problem Finance Tool,Neutral,215
+97,INC18284,description,Frustrated with the constant issues with the keyboard.,Negative,215
+98,INC18284,comments,Monitoring system performance after patch deployment.,Neutral,215
+99,INC18284,comments,Ordered replacement docking station. ETA 2 days.,Neutral,215
+100,INC18284,comments,Applied configuration change as per documentation.,Neutral,215
+101,INC18284,resolution_notes,Network configuration corrected by Desktop Support.,Neutral,215
+102,INC18285,short_description,Cannot Login to HR System,Negative,481
+103,INC18285,description,Still waiting for an update on my issue from yesterday.,Negative,481
+104,INC18285,comments,Escalating issue to Tier 3 support / Network Team.,Neutral,481
+105,INC18285,resolution_notes,Confirmed fix is working. Closing the ticket.,Positive,481
+106,REQ51198,short_description,Password Reset,Neutral,304
+107,REQ51198,description,Inquiry about the status of upgrade project 'Grow Robust Action-Items'.,Neutral,304
+108,REQ51198,comments,Can you please provide an estimated resolution time?,Neutral,304
+109,REQ51198,resolution_notes,Access granted to VPN Client. User notified.,Neutral,304
+110,INC18286,short_description,monitor Broken,Negative,1143
+111,INC18286,description,Still waiting for an update on my issue from yesterday.,Negative,1143
+112,INC18286,comments,Investigating network latency between East Robert and DC.,Neutral,1143
+113,INC18286,comments,This impacts deadline 2025-04-10. Need resolution!,Negative,1143
+114,INC18286,comments,Monitoring system performance after patch deployment.,Neutral,1143
+115,INC18286,resolution_notes,Closed per user request.,Neutral,1143
+116,REQ51199,short_description,Password Reset,Neutral,1566
+117,REQ51199,description,Requesting access to VPN Client for new user Savannah Price.,Neutral,1566
+118,REQ51199,resolution_notes,Finally working again after restart. Thanks!,Positive,1566
+119,INC18287,short_description,Urgent: Salesforce Access Issue,Negative,658
+120,INC18287,description,The provided solution did not work. Problem persists.,Negative,658
+121,INC18287,resolution_notes,Confirmed fix is working. Closing the ticket.,Positive,658
+122,INC18288,short_description,monitor Broken,Negative,1195
+123,INC18288,description,This is unacceptable performance for HR System.,Negative,1195
+124,INC18288,comments,Is there any further information needed from my side?,Neutral,1195
+125,INC18288,resolution_notes,Thanks! SAP is working perfectly now.,Positive,1195
+126,INC18289,short_description,Network Slow in Port Tracy,Negative,1286
+127,INC18289,description,Still waiting for an update on my issue from yesterday.,Negative,1286
+128,INC18289,comments,Is there any further information needed from my side?,Neutral,1286
+129,INC18289,comments,Escalating issue to Tier 3 support / Security Ops.,Neutral,1286
+130,INC18289,resolution_notes,The new laptop works great. Setup was smooth.,Positive,1286
+131,REQ51200,short_description,Request for Finance Tool Access,Neutral,2855
+132,REQ51200,description,VM provisioning request based on template 'Dev VM Template'.,Neutral,2855
+133,REQ51200,resolution_notes,Network configuration corrected by Help Desk.,Neutral,2855
+134,REQ51201,short_description,Password Reset,Neutral,3473
+135,REQ51201,description,User Dr. Melissa Weaver reporting issue with keyboard at Justinmouth.,Neutral,3473
+136,REQ51201,comments,Attempted remote connection to user's machine. Failed.,Neutral,3473
+137,REQ51201,resolution_notes,User Ashley Mills confirmed issue resolved after clearing cache.,Neutral,3473
+138,INC18290,short_description,Connectivity Error,Neutral,549
+139,INC18290,description,My docking station is broken. Need a replacement ASAP.,Negative,549
+140,INC18290,comments,Can you please provide an estimated resolution time?,Neutral,549
+141,INC18290,comments,Assigned ticket to Desktop Support.,Neutral,549
+142,INC18290,resolution_notes,Confirmed fix is working. Closing the ticket.,Positive,549
+143,INC18291,short_description,Login Problem Teams,Neutral,1023
+144,INC18291,description,Frustrated with the constant issues with the mouse.,Negative,1023
+145,INC18291,comments,Just checking in on the status.,Neutral,1023
+146,INC18291,resolution_notes,The new printer works great. Setup was smooth.,Positive,1023
+147,INC18292,short_description,Login Problem HR System,Neutral,725
+148,INC18292,description,Network connection keeps dropping in Sherryshire office.,Negative,725
+149,INC18292,resolution_notes,"Excellent support, problem fixed.",Positive,725
+150,INC18293,short_description,Connectivity Error,Neutral,218
+151,INC18293,description,System crash on APP-GLASS-81. Lost work. Please investigate immediately.,Negative,218
+152,INC18293,comments,Can you please provide an estimated resolution time?,Neutral,218
+153,INC18293,comments,Just checking in on the status.,Neutral,218
+154,INC18293,comments,Is anyone working on this??,Negative,218
+155,INC18293,resolution_notes,Great job on resolving the outage so fast!,Positive,218
+156,INC18294,short_description,Connectivity Error,Neutral,901
+157,INC18294,description,The provided solution did not work. Problem persists.,Negative,901
+158,INC18294,comments,Reset password for Justin Knight and provided temporary one.,Neutral,901
+159,INC18294,comments,Applied configuration change as per documentation.,Neutral,901
+160,INC18294,resolution_notes,The new laptop works great. Setup was smooth.,Positive,901
+161,INC18295,short_description,Network Slow in North Juliemouth,Negative,1018
+162,INC18295,description,Error W3927 when trying to access the shared drive.,Negative,1018
+163,INC18295,comments,Following up as requested.,Neutral,1018
+164,INC18295,comments,Investigating network latency between Christopherville and DC.,Neutral,1018
+165,INC18295,resolution_notes,Great job on resolving the outage so fast!,Positive,1018
+166,INC18296,short_description,Issue with docking station,Neutral,459
+167,INC18296,description,Frustrated with the constant issues with the laptop.,Negative,459
+168,INC18296,comments,Reset password for Javier Richardson and provided temporary one.,Neutral,459
+169,INC18296,comments,Ordered replacement keyboard. ETA 2 days.,Neutral,459
+170,INC18296,resolution_notes,User Breanna Burns confirmed resolution.,Positive,459
+171,REQ51202,short_description,Information Request,Neutral,329
+172,REQ51202,description,User Cathy Sanchez MD reporting issue with printer at Traceyside.,Neutral,329
+173,REQ51202,resolution_notes,Software installed and verified with user.,Neutral,329
+174,REQ51203,short_description,New keyboard Request,Neutral,2776
+175,REQ51203,description,User Lauren Owens reporting issue with printer at Port Amandaville.,Neutral,2776
+176,REQ51203,resolution_notes,Provided user with documentation link. Closing ticket.,Neutral,2776
+177,INC18297,short_description,Cannot Login to Finance Tool,Negative,895
+178,INC18297,description,Network connection keeps dropping in Navarroport office.,Negative,895
+179,INC18297,comments,Gathering more information from user Travis Robinson.,Neutral,895
+180,INC18297,comments,Assigned ticket to Server Support.,Neutral,895
+181,INC18297,comments,Ordered replacement monitor. ETA 2 days.,Neutral,895
+182,INC18297,resolution_notes,Problem solved after the steps you provided.,Positive,895
+183,REQ51204,short_description,Information Request,Neutral,729
+184,REQ51204,description,Need standard keyboard for employee starting next week.,Neutral,729
+185,REQ51204,resolution_notes,Resolved by restarting the Internal Portal service on DB-MEMBER-23.,Neutral,729
+186,INC18298,short_description,Salesforce Down,Negative,1026
+187,INC18298,description,My desk phone is broken. Need a replacement ASAP.,Negative,1026
+188,INC18298,resolution_notes,Problem solved after the steps you provided.,Positive,1026
+189,REQ51205,short_description,Software Installation Salesforce,Neutral,2076
+190,REQ51205,description,User Mary Reese reporting issue with mouse at East Donald.,Neutral,2076
+191,REQ51205,comments,Applied configuration change as per documentation.,Neutral,2076
+192,REQ51205,resolution_notes,Finally working again after restart. Thanks!,Positive,2076
+193,INC18299,short_description,monitor Broken,Negative,557
+194,INC18299,description,This is unacceptable performance for VPN Client.,Negative,557
+195,INC18299,comments,Any update on this request?,Neutral,557
+196,INC18299,comments,No progress reported yet.,Negative,557
+197,INC18299,comments,Monitoring system performance after patch deployment.,Neutral,557
+198,INC18299,resolution_notes,User Michael Williams confirmed resolution.,Positive,557
+199,INC18300,short_description,Cannot Login to Finance Tool,Negative,417
+200,INC18300,description,This is unacceptable performance for HR System.,Negative,417
+201,INC18300,comments,Applied configuration change as per documentation.,Neutral,417
+202,INC18300,resolution_notes,Access granted. Thank you for the prompt response.,Positive,417
+203,INC18301,short_description,Network Slow in Stevenchester,Negative,1010
+204,INC18301,description,My docking station is broken. Need a replacement ASAP.,Negative,1010
+205,INC18301,comments,Escalating issue to Tier 3 support / Help Desk.,Neutral,1010
+206,INC18301,comments,This is taking too long.,Negative,1010
+207,INC18301,resolution_notes,Great job on resolving the outage so fast!,Positive,1010
+208,INC18302,short_description,Cannot Login to SAP,Negative,241
+209,INC18302,description,Error C1909 when trying to access the shared drive.,Negative,241
+210,INC18302,resolution_notes,Great job on resolving the outage so fast!,Positive,241
+211,INC18303,short_description,docking station Broken,Negative,624
+212,INC18303,description,Cannot login to Outlook. Getting error W4667. Urgent!,Negative,624
+213,INC18303,comments,Can you please provide an estimated resolution time?,Neutral,624
+214,INC18303,comments,Is anyone working on this??,Negative,624
+215,INC18303,resolution_notes,Issue resolved quickly. Appreciate the help from Desktop Support.,Positive,624
+216,INC18304,short_description,Cannot Login to Finance Tool,Negative,209
+217,INC18304,description,Cannot login to HR System. Getting error W441. Urgent!,Negative,209
+218,INC18304,comments,Escalating issue to Tier 3 support / Security Ops.,Neutral,209
+219,INC18304,comments,Any update on this request?,Neutral,209
+220,INC18304,resolution_notes,Great job on resolving the outage so fast!,Positive,209
+221,INC18305,short_description,Teams Down,Negative,425
+222,INC18305,description,Frustrated with the constant issues with the desk phone.,Negative,425
+223,INC18305,comments,Escalating issue to Tier 3 support / App Support Team.,Neutral,425
+224,INC18305,comments,Investigating network latency between Carrberg and DC.,Neutral,425
+225,INC18305,resolution_notes,Finally working again after restart. Thanks!,Positive,425
+226,REQ51206,short_description,Information Request,Neutral,836
+227,REQ51206,description,Inquiry about the status of upgrade project 'Target Impactful Communities'.,Neutral,836
+228,REQ51206,resolution_notes,Access granted. Thank you for the prompt response.,Positive,836
+229,INC18306,short_description,Cannot Login to Salesforce,Negative,140
+230,INC18306,description,Still waiting for an update on my issue from yesterday.,Negative,140
+231,INC18306,comments,Investigating network latency between North Frank and DC.,Neutral,140
+232,INC18306,resolution_notes,Access granted. Thank you for the prompt response.,Positive,140
+233,INC18307,short_description,Urgent: Outlook Access Issue,Negative,219
+234,INC18307,description,Network connection keeps dropping in Jordanside office.,Negative,219
+235,INC18307,comments,Assigned ticket to Help Desk.,Neutral,219
+236,INC18307,comments,Any update on this request?,Neutral,219
+237,INC18307,comments,Assigned ticket to Security Ops.,Neutral,219
+238,INC18307,resolution_notes,"Excellent support, problem fixed.",Positive,219
+239,INC18308,short_description,Login Problem VPN Client,Neutral,1316
+240,INC18308,description,This is unacceptable performance for Teams.,Negative,1316
+241,INC18308,comments,Any update on this request?,Neutral,1316
+242,INC18308,comments,This impacts deadline 2025-04-08. Need resolution!,Negative,1316
+243,INC18308,resolution_notes,"Excellent support, problem fixed.",Positive,1316
+244,INC18309,short_description,Network Slow in Floydville,Negative,252
+245,INC18309,description,The provided solution did not work. Problem persists.,Negative,252
+246,INC18309,comments,Escalating issue to Tier 3 support / Desktop Support.,Neutral,252
+247,INC18309,comments,Reset password for Jessica Park and provided temporary one.,Neutral,252
+248,INC18309,comments,Reset password for Ashley Randolph and provided temporary one.,Neutral,252
+249,INC18309,resolution_notes,"Excellent support, problem fixed.",Positive,252
+250,INC18310,short_description,HR System Down,Negative,987
+251,INC18310,description,The provided solution did not work. Problem persists.,Negative,987
+252,INC18310,comments,Attempted remote connection to user's machine. Failed.,Neutral,987
+253,INC18310,resolution_notes,Access granted. Thank you for the prompt response.,Positive,987
+254,INC18311,short_description,Cannot Login to VPN Client,Negative,509
+255,INC18311,description,My monitor is broken. Need a replacement ASAP.,Negative,509
+256,INC18311,resolution_notes,"Excellent support, problem fixed.",Positive,509
+257,INC18312,short_description,Network Slow in East Brittany,Negative,963
+258,INC18312,description,My monitor is broken. Need a replacement ASAP.,Negative,963
+259,INC18312,comments,Attempted remote connection to user's machine. Failed.,Neutral,963
+260,INC18312,comments,Just checking in on the status.,Neutral,963
+261,INC18312,resolution_notes,"Excellent support, problem fixed.",Positive,963
+262,INC18313,short_description,Connectivity Error,Neutral,437
+263,INC18313,description,Cannot login to Teams. Getting error E4758. Urgent!,Negative,437
+264,INC18313,comments,Can you please provide an estimated resolution time?,Neutral,437
+265,INC18313,comments,This is taking too long.,Negative,437
+266,INC18313,comments,Assigned ticket to Security Ops.,Neutral,437
+267,INC18313,resolution_notes,The new laptop works great. Setup was smooth.,Positive,437
+268,INC18314,short_description,Network Slow in Torrestown,Negative,278
+269,INC18314,description,This is unacceptable performance for Outlook.,Negative,278
+270,INC18314,comments,Following up as requested.,Neutral,278
+271,INC18314,comments,Escalating issue to Tier 3 support / App Support Team.,Neutral,278
+272,INC18314,comments,Any update on this request?,Neutral,278
+273,INC18314,resolution_notes,Confirmed fix is working. Closing the ticket.,Positive,278
+274,REQ51207,short_description,Information Request,Neutral,2892
+275,REQ51207,description,Following up on previous ticket INC17058.,Neutral,2892
+276,REQ51207,resolution_notes,Resolved by restarting the Teams service on APP-STANDARD-06.,Neutral,2892
+277,INC18315,short_description,Issue with docking station,Neutral,562
+278,INC18315,description,Error W6409 when trying to access the shared drive.,Negative,562
+279,INC18315,resolution_notes,Finally working again after restart. Thanks!,Positive,562
+280,INC18316,short_description,Network Slow in Nathanside,Negative,119
+281,INC18316,description,Network connection keeps dropping in Crystaltown office.,Negative,119
+282,INC18316,comments,Applied configuration change as per documentation.,Neutral,119
+283,INC18316,comments,Is anyone working on this??,Negative,119
+284,INC18316,resolution_notes,User Elizabeth Adams confirmed resolution.,Positive,119
+285,INC18317,short_description,Issue with mouse,Neutral,1249
+286,INC18317,description,Still waiting for an update on my issue from yesterday.,Negative,1249
+287,INC18317,comments,Ordered replacement desk phone. ETA 2 days.,Neutral,1249
+288,INC18317,resolution_notes,Issue resolved quickly. Appreciate the help from Desktop Support.,Positive,1249
+289,INC18318,short_description,monitor Broken,Negative,1011
+290,INC18318,description,Error C7504 when trying to access the shared drive.,Negative,1011
+291,INC18318,comments,Gathering more information from user Jose Morales.,Neutral,1011
+292,INC18318,resolution_notes,Problem solved after the steps you provided.,Positive,1011
+293,REQ51208,short_description,Software Installation Salesforce,Neutral,4243
+294,REQ51208,description,Password reset required for Shannon Moore's account.,Neutral,4243
+295,REQ51208,comments,Gathering more information from user David Davis.,Neutral,4243
+296,REQ51208,resolution_notes,Replaced faulty mouse. Asset tag updated.,Neutral,4243
+297,REQ51209,short_description,New docking station Request,Neutral,3656
+298,REQ51209,description,User Jose West reporting issue with desk phone at North Steven.,Neutral,3656
+299,REQ51209,comments,Escalating issue to Tier 3 support / Desktop Support.,Neutral,3656
+300,REQ51209,resolution_notes,Network configuration corrected by Desktop Support.,Neutral,3656
+301,REQ51210,short_description,Password Reset,Neutral,2871
+302,REQ51210,description,User Alyssa Mclaughlin reporting issue with docking station at New Jamesside.,Neutral,2871
+303,REQ51210,comments,Applied configuration change as per documentation.,Neutral,2871
+304,REQ51210,resolution_notes,Resolved by restarting the Teams service on DC-SING-49.,Neutral,2871
+305,INC18319,short_description,Network Slow in Santiagomouth,Negative,810
+306,INC18319,description,VPN Client is extremely slow today. Taking minutes to load.,Negative,810
+307,INC18319,comments,Escalating issue to Tier 3 support / Server Support.,Neutral,810
+308,INC18319,comments,Is anyone working on this??,Negative,810
+309,INC18319,comments,Assigned ticket to Network Team.,Neutral,810
+310,INC18319,resolution_notes,Issue resolved quickly. Appreciate the help from Desktop Support.,Positive,810
+311,REQ51211,short_description,Password Reset,Neutral,3725
+312,REQ51211,description,Requesting information on how to configure MFA.,Neutral,3725
+313,REQ51211,comments,Ordered replacement docking station. ETA 2 days.,Neutral,3725
+314,REQ51211,resolution_notes,Great job on resolving the outage so fast!,Positive,3725
+315,REQ51212,short_description,Software Installation VPN Client,Neutral,597
+316,REQ51212,description,Inquiry about the status of upgrade project 'Integrate Collaborative Experiences'.,Neutral,597
+317,REQ51212,comments,Just checking in on the status.,Neutral,597
+318,REQ51212,resolution_notes,Great job on resolving the outage so fast!,Positive,597
+319,INC18320,short_description,Network Slow in Gonzalesstad,Negative,777
+320,INC18320,description,My mouse is broken. Need a replacement ASAP.,Negative,777
+321,INC18320,comments,Just checking in on the status.,Neutral,777
+322,INC18320,comments,Escalating issue to Tier 3 support / Desktop Support.,Neutral,777
+323,INC18320,resolution_notes,"Excellent support, problem fixed.",Positive,777
+324,REQ51213,short_description,Password Reset,Neutral,2454
+325,REQ51213,description,Password reset required for Karen Stark DVM's account.,Neutral,2454
+326,REQ51213,resolution_notes,Confirmed fix is working. Closing the ticket.,Positive,2454
+327,INC18321,short_description,Connectivity Error,Neutral,1035
+328,INC18321,description,Frustrated with the constant issues with the monitor.,Negative,1035
+329,INC18321,resolution_notes,Great job on resolving the outage so fast!,Positive,1035
+330,INC18322,short_description,Login Problem Salesforce,Neutral,582
+331,INC18322,description,My laptop is broken. Need a replacement ASAP.,Negative,582
+332,INC18322,comments,Assigned ticket to Desktop Support.,Neutral,582
+333,INC18322,comments,Investigating network latency between Soliston and DC.,Neutral,582
+334,INC18322,comments,Applied configuration change as per documentation.,Neutral,582
+335,INC18322,resolution_notes,Great job on resolving the outage so fast!,Positive,582
+336,REQ51214,short_description,Information Request,Neutral,2155
+337,REQ51214,description,Requesting access to Outlook for new user Jason Kline.,Neutral,2155
+338,REQ51214,comments,Can you please provide an estimated resolution time?,Neutral,2155
+339,REQ51214,resolution_notes,The new monitor works great. Setup was smooth.,Positive,2155
+340,INC18323,short_description,Urgent: Internal Portal Access Issue,Negative,863
+341,INC18323,description,System crash on WEB-REASON-07. Lost work. Please investigate immediately.,Negative,863
+342,INC18323,resolution_notes,User Jessica Harrison confirmed resolution.,Positive,863
+343,INC18324,short_description,Network Slow in South Kimbury,Negative,454
+344,INC18324,description,VPN Client is extremely slow today. Taking minutes to load.,Negative,454
+345,INC18324,resolution_notes,Issue resolved quickly. Appreciate the help from Desktop Support.,Positive,454
+346,INC18325,short_description,Urgent: Internal Portal Access Issue,Negative,919
+347,INC18325,description,Salesforce is extremely slow today. Taking minutes to load.,Negative,919
+348,INC18325,comments,Any update on this request?,Neutral,919
+349,INC18325,comments,Escalating issue to Tier 3 support / Server Support.,Neutral,919
+350,INC18325,comments,Any update on this request?,Neutral,919
+351,INC18325,resolution_notes,"Excellent support, problem fixed.",Positive,919
+352,INC18326,short_description,Issue with mouse,Neutral,43
+353,INC18326,description,Frustrated with the constant issues with the printer.,Negative,43
+354,INC18326,comments,Ordered replacement docking station. ETA 2 days.,Neutral,43
+355,INC18326,resolution_notes,User David Chung confirmed resolution.,Positive,43
+356,INC18327,short_description,Connectivity Error,Neutral,903
+357,INC18327,description,The provided solution did not work. Problem persists.,Negative,903
+358,INC18327,comments,Ordered replacement laptop. ETA 2 days.,Neutral,903
+359,INC18327,comments,Is there any further information needed from my side?,Neutral,903
+360,INC18327,resolution_notes,Problem solved after the steps you provided.,Positive,903
+361,INC18328,short_description,Network Slow in Elizabethhaven,Negative,46
+362,INC18328,description,Network connection keeps dropping in East Johnny office.,Negative,46
+363,INC18328,comments,Investigating network latency between North Emily and DC.,Neutral,46
+364,INC18328,comments,Monitoring system performance after patch deployment.,Neutral,46
+365,INC18328,comments,Applied configuration change as per documentation.,Neutral,46
+366,INC18328,resolution_notes,Confirmed fix is working. Closing the ticket.,Positive,46
+367,REQ51215,short_description,Request for Outlook Access,Neutral,3722
+368,REQ51215,description,Need standard printer for employee starting next week.,Neutral,3722
+369,REQ51215,resolution_notes,Resolved by restarting the Outlook service on APP-CLAIM-88.,Neutral,3722
+370,REQ51216,short_description,Request for Finance Tool Access,Neutral,1344
+371,REQ51216,description,Inquiry about the status of upgrade project 'Leverage Efficient Applications'.,Neutral,1344
+372,REQ51216,resolution_notes,The new printer works great. Setup was smooth.,Positive,1344
+373,INC18329,short_description,Network Slow in Oliviamouth,Negative,717
+374,INC18329,description,System crash on DB-COVER-40. Lost work. Please investigate immediately.,Negative,717
+375,INC18329,comments,Can you please provide an estimated resolution time?,Neutral,717
+376,INC18329,resolution_notes,Thanks! HR System is working perfectly now.,Positive,717
+377,INC18330,short_description,Login Problem Teams,Neutral,1267
+378,INC18330,description,Still waiting for an update on my issue from yesterday.,Negative,1267
+379,INC18330,comments,Following up as requested.,Neutral,1267
+380,INC18330,comments,Is there any further information needed from my side?,Neutral,1267
+381,INC18330,comments,Assigned ticket to Network Team.,Neutral,1267
+382,INC18330,resolution_notes,Problem solved after the steps you provided.,Positive,1267
+383,INC18331,short_description,Internal Portal Down,Negative,246
+384,INC18331,description,Salesforce is extremely slow today. Taking minutes to load.,Negative,246
+385,INC18331,comments,Investigating network latency between Lake Lisaberg and DC.,Neutral,246
+386,INC18331,comments,Can you please provide an estimated resolution time?,Neutral,246
+387,INC18331,comments,Any update? Still blocked.,Negative,246
+388,INC18331,resolution_notes,User Russell Rosales confirmed resolution.,Positive,246
+389,INC18332,short_description,monitor Broken,Negative,276
+390,INC18332,description,This is unacceptable performance for VPN Client.,Negative,276
+391,INC18332,resolution_notes,User Richard Sutton confirmed resolution.,Positive,276
+392,INC18333,short_description,Urgent: SAP Access Issue,Negative,563
+393,INC18333,description,My printer is broken. Need a replacement ASAP.,Negative,563
+394,INC18333,comments,Reset password for David Alexander and provided temporary one.,Neutral,563
+395,INC18333,comments,Is anyone working on this??,Negative,563
+396,INC18333,resolution_notes,Issue resolved quickly. Appreciate the help from Security Ops.,Positive,563
+397,REQ51217,short_description,Request for Teams Access,Neutral,1669
+398,REQ51217,description,Hardware refresh needed for Joel Winters. See attached list.,Neutral,1669
+399,REQ51217,comments,Reset password for Brandon Briggs and provided temporary one.,Neutral,1669
+400,REQ51217,resolution_notes,Problem solved after the steps you provided.,Positive,1669
+401,INC18334,short_description,Cannot Login to HR System,Negative,406
+402,INC18334,description,This is unacceptable performance for VPN Client.,Negative,406
+403,INC18334,resolution_notes,Thanks! SAP is working perfectly now.,Positive,406
+404,REQ51218,short_description,Password Reset,Neutral,1148
+405,REQ51218,description,Submitting request for software license for Outlook.,Neutral,1148
+406,REQ51218,resolution_notes,The new laptop works great. Setup was smooth.,Positive,1148
+407,INC18335,short_description,Cannot Login to VPN Client,Negative,1421
+408,INC18335,description,Still waiting for an update on my issue from yesterday.,Negative,1421
+409,INC18335,comments,Is there any further information needed from my side?,Neutral,1421
+410,INC18335,resolution_notes,The new laptop works great. Setup was smooth.,Positive,1421
+411,INC18336,short_description,Cannot Login to Salesforce,Negative,1370
+412,INC18336,description,Network connection keeps dropping in Mitchellstad office.,Negative,1370
+413,INC18336,comments,Monitoring system performance after patch deployment.,Neutral,1370
+414,INC18336,resolution_notes,Problem solved after the steps you provided.,Positive,1370
+415,REQ51219,short_description,Password Reset,Neutral,104
+416,REQ51219,description,Following up on previous ticket INC16190.,Neutral,104
+417,REQ51219,comments,Checked logs on WEB-CONSIDER-02. Found error E5607.,Neutral,104
+418,REQ51219,resolution_notes,The new monitor works great. Setup was smooth.,Positive,104
+419,REQ51220,short_description,Password Reset,Neutral,2704
+420,REQ51220,description,Submitting request for software license for Teams.,Neutral,2704
+421,REQ51220,resolution_notes,Resolved by restarting the Internal Portal service on DC-SINCE-04.,Neutral,2704
+422,INC18337,short_description,Cannot Login to SAP,Negative,134
+423,INC18337,description,System crash on DC-I-29. Lost work. Please investigate immediately.,Negative,134
+424,INC18337,comments,Investigating network latency between North Summer and DC.,Neutral,134
+425,INC18337,comments,Following up as requested.,Neutral,134
+426,INC18337,resolution_notes,Network configuration corrected by Help Desk.,Neutral,134
+427,REQ51221,short_description,Password Reset,Neutral,4302
+428,REQ51221,description,Following up on previous ticket INC16037.,Neutral,4302
+429,REQ51221,resolution_notes,Access granted to Outlook. User notified.,Neutral,4302
+430,INC18338,short_description,Teams Down,Negative,1232
+431,INC18338,description,This is unacceptable performance for Outlook.,Negative,1232
+432,INC18338,resolution_notes,Network configuration corrected by Security Ops.,Neutral,1232
+433,INC18339,short_description,Cannot Login to Internal Portal,Negative,1079
+434,INC18339,description,Cannot login to VPN Client. Getting error E8441. Urgent!,Negative,1079
+435,INC18339,comments,Applied configuration change as per documentation.,Neutral,1079
+436,INC18339,comments,Applied configuration change as per documentation.,Neutral,1079
+437,INC18339,comments,Monitoring system performance after patch deployment.,Neutral,1079
+438,INC18339,resolution_notes,Problem solved after the steps you provided.,Positive,1079
+439,REQ51222,short_description,Request for Salesforce Access,Neutral,3346
+440,REQ51222,description,Requesting information on how to configure MFA.,Neutral,3346
+441,REQ51222,resolution_notes,Password reset completed. User able to login.,Neutral,3346
+442,INC18340,short_description,Urgent: Teams Access Issue,Negative,1179
+443,INC18340,description,Error W2763 when trying to access the shared drive.,Negative,1179
+444,INC18340,comments,Gathering more information from user Richard Clay.,Neutral,1179
+445,INC18340,resolution_notes,Issue resolved quickly. Appreciate the help from Security Ops.,Positive,1179
+446,REQ51223,short_description,Information Request,Neutral,754
+447,REQ51223,description,Password reset required for Katrina Beltran's account.,Neutral,754
+448,REQ51223,resolution_notes,Issue resolved quickly. Appreciate the help from Server Support.,Positive,754
+449,INC18341,short_description,desk phone Broken,Negative,86
+450,INC18341,description,Error W1292 when trying to access the shared drive.,Negative,86
+451,INC18341,comments,Monitoring system performance after patch deployment.,Neutral,86
+452,INC18341,comments,Following up as requested.,Neutral,86
+453,INC18341,resolution_notes,User Melinda Kim confirmed resolution.,Positive,86
+454,INC18342,short_description,Connectivity Error,Neutral,1234
+455,INC18342,description,Finance Tool is extremely slow today. Taking minutes to load.,Negative,1234
+456,INC18342,resolution_notes,"Excellent support, problem fixed.",Positive,1234
+457,INC18343,short_description,Issue with monitor,Neutral,1028
+458,INC18343,description,The provided solution did not work. Problem persists.,Negative,1028
+459,INC18343,resolution_notes,Issue resolved quickly. Appreciate the help from App Support Team.,Positive,1028
+460,INC18344,short_description,Connectivity Error,Neutral,1343
+461,INC18344,description,The provided solution did not work. Problem persists.,Negative,1343
+462,INC18344,resolution_notes,Access granted. Thank you for the prompt response.,Positive,1343
+463,REQ51224,short_description,Information Request,Neutral,2033
+464,REQ51224,description,Following up on previous ticket INC13929.,Neutral,2033
+465,REQ51224,resolution_notes,Problem solved after the steps you provided.,Positive,2033
+466,INC18345,short_description,Urgent: Salesforce Access Issue,Negative,403
+467,INC18345,description,My printer is broken. Need a replacement ASAP.,Negative,403
+468,INC18345,resolution_notes,Access granted to Outlook. User notified.,Neutral,403
+469,REQ51225,short_description,New docking station Request,Neutral,1231
+470,REQ51225,description,Submitting request for software license for SAP.,Neutral,1231
+471,REQ51225,resolution_notes,Great job on resolving the outage so fast!,Positive,1231
+472,INC18346,short_description,Network Slow in West Christian,Negative,1238
+473,INC18346,description,Cannot login to VPN Client. Getting error E8116. Urgent!,Negative,1238
+474,INC18346,resolution_notes,"Excellent support, problem fixed.",Positive,1238
+475,INC18347,short_description,Salesforce Down,Negative,290
+476,INC18347,description,Cannot login to Salesforce. Getting error E2217. Urgent!,Negative,290
+477,INC18347,comments,Just checking in on the status.,Neutral,290
+478,INC18347,comments,This is taking too long.,Negative,290
+479,INC18347,resolution_notes,The new monitor works great. Setup was smooth.,Positive,290
+480,INC18348,short_description,mouse Broken,Negative,1027
+481,INC18348,description,Still waiting for an update on my issue from yesterday.,Negative,1027
+482,INC18348,comments,Is there any further information needed from my side?,Neutral,1027
+483,INC18348,resolution_notes,Great job on resolving the outage so fast!,Positive,1027
+484,REQ51226,short_description,Request for VPN Client Access,Neutral,3700
+485,REQ51226,description,Inquiry about the status of upgrade project 'Strategize World-Class E-Services'.,Neutral,3700
+486,REQ51226,resolution_notes,Great job on resolving the outage so fast!,Positive,3700
+487,INC18349,short_description,Teams Down,Negative,34
+488,INC18349,description,Frustrated with the constant issues with the printer.,Negative,34
+489,INC18349,comments,Following up as requested.,Neutral,34
+490,INC18349,resolution_notes,User Corey Leach confirmed resolution.,Positive,34
+491,REQ51227,short_description,Software Installation VPN Client,Neutral,2819
+492,REQ51227,description,Inquiry about the status of upgrade project 'Visualize Dynamic Vortals'.,Neutral,2819
+493,REQ51227,comments,Following up as requested.,Neutral,2819
+494,REQ51227,resolution_notes,The new monitor works great. Setup was smooth.,Positive,2819
+495,REQ51228,short_description,Information Request,Neutral,116
+496,REQ51228,description,Password reset required for Elizabeth Holloway's account.,Neutral,116
+497,REQ51228,resolution_notes,Problem solved after the steps you provided.,Positive,116
+498,INC18350,short_description,Urgent: HR System Access Issue,Negative,1412
+499,INC18350,description,Network connection keeps dropping in Barbarabury office.,Negative,1412
+500,INC18350,comments,Gathering more information from user Michael Martin.,Neutral,1412
+501,INC18350,comments,Monitoring system performance after patch deployment.,Neutral,1412
+502,INC18350,comments,Assigned ticket to Security Ops.,Neutral,1412
+503,INC18350,resolution_notes,"Excellent support, problem fixed.",Positive,1412
+504,INC18351,short_description,Cannot Login to VPN Client,Negative,679
+505,INC18351,description,System crash on APP-GLASS-46. Lost work. Please investigate immediately.,Negative,679
+506,INC18351,comments,Any update on this request?,Neutral,679
+507,INC18351,resolution_notes,Finally working again after restart. Thanks!,Positive,679
+508,INC18352,short_description,Urgent: VPN Client Access Issue,Negative,1221
+509,INC18352,description,Cannot login to Outlook. Getting error C3014. Urgent!,Negative,1221
+510,INC18352,resolution_notes,Problem solved after the steps you provided.,Positive,1221
+511,INC18353,short_description,Issue with printer,Neutral,1001
+512,INC18353,description,Error C2111 when trying to access the shared drive.,Negative,1001
+513,INC18353,comments,Escalating issue to Tier 3 support / Desktop Support.,Neutral,1001
+514,INC18353,resolution_notes,Finally working again after restart. Thanks!,Positive,1001
+515,REQ51229,short_description,Information Request,Neutral,3848
+516,REQ51229,description,Need standard mouse for employee starting next week.,Neutral,3848
+517,REQ51229,resolution_notes,Great job on resolving the outage so fast!,Positive,3848
+518,INC18354,short_description,docking station Broken,Negative,376
+519,INC18354,description,This is unacceptable performance for HR System.,Negative,376
+520,INC18354,resolution_notes,"Excellent support, problem fixed.",Positive,376
+521,INC18355,short_description,Cannot Login to Finance Tool,Negative,738
+522,INC18355,description,System crash on APP-PICTURE-27. Lost work. Please investigate immediately.,Negative,738
+523,INC18355,comments,Just checking in on the status.,Neutral,738
+524,INC18355,comments,Assigned ticket to Security Ops.,Neutral,738
+525,INC18355,resolution_notes,Finally working again after restart. Thanks!,Positive,738
+526,REQ51230,short_description,Software Installation Salesforce,Neutral,393
+527,REQ51230,description,Need standard desk phone for employee starting next week.,Neutral,393
+528,REQ51230,comments,Attempted remote connection to user's machine. Failed.,Neutral,393
+529,REQ51230,resolution_notes,Network configuration corrected by Help Desk.,Neutral,393
+530,REQ51231,short_description,New mouse Request,Neutral,2361
+531,REQ51231,description,Requesting information on how to configure MFA.,Neutral,2361
+532,REQ51231,comments,Following up as requested.,Neutral,2361
+533,REQ51231,resolution_notes,Issue resolved quickly. Appreciate the help from Security Ops.,Positive,2361
+534,INC18356,short_description,Login Problem Internal Portal,Neutral,572
+535,INC18356,description,Frustrated with the constant issues with the keyboard.,Negative,572
+536,INC18356,resolution_notes,Issue resolved quickly. Appreciate the help from Server Support.,Positive,572
+537,REQ51232,short_description,Request for Outlook Access,Neutral,621
+538,REQ51232,description,Requesting access to Teams for new user Mary Cook.,Neutral,621
+539,REQ51232,resolution_notes,Replaced faulty monitor. Asset tag updated.,Neutral,621
+540,REQ51233,short_description,Information Request,Neutral,2668
+541,REQ51233,description,Inquiry about the status of upgrade project 'Envisioneer Clicks-And-Mortar Roi'.,Neutral,2668
+542,REQ51233,resolution_notes,Great job on resolving the outage so fast!,Positive,2668
+543,INC18357,short_description,Cannot Login to Teams,Negative,208
+544,INC18357,description,System crash on DC-SHOULD-27. Lost work. Please investigate immediately.,Negative,208
+545,INC18357,resolution_notes,"Excellent support, problem fixed.",Positive,208
+546,INC18358,short_description,Teams Down,Negative,1206
+547,INC18358,description,Network connection keeps dropping in Port Audrey office.,Negative,1206
+548,INC18358,comments,Assigned ticket to Server Support.,Neutral,1206
+549,INC18358,comments,This impacts deadline 2025-04-11. Need resolution!,Negative,1206
+550,INC18358,comments,Escalating issue to Tier 3 support / App Support Team.,Neutral,1206
+551,INC18358,resolution_notes,User Aaron Brooks confirmed resolution.,Positive,1206
+552,INC18359,short_description,Urgent: VPN Client Access Issue,Negative,1264
+553,INC18359,description,Network connection keeps dropping in Loriport office.,Negative,1264
+554,INC18359,resolution_notes,Problem solved after the steps you provided.,Positive,1264
+555,INC18360,short_description,Connectivity Error,Neutral,1120
+556,INC18360,description,VPN Client is extremely slow today. Taking minutes to load.,Negative,1120
+557,INC18360,resolution_notes,"Excellent support, problem fixed.",Positive,1120
+558,REQ51234,short_description,Software Installation Outlook,Neutral,2144
+559,REQ51234,description,VM provisioning request based on template 'Dev VM Template'.,Neutral,2144
+560,REQ51234,resolution_notes,Confirmed fix is working. Closing the ticket.,Positive,2144
+561,REQ51235,short_description,Password Reset,Neutral,3343
+562,REQ51235,description,Password reset required for Mary Burke's account.,Neutral,3343
+563,REQ51235,resolution_notes,Access granted to SAP. User notified.,Neutral,3343
+564,INC18361,short_description,Urgent: Teams Access Issue,Negative,1378
+565,INC18361,description,My mouse is broken. Need a replacement ASAP.,Negative,1378
+566,INC18361,comments,Any update on this request?,Neutral,1378
+567,INC18361,resolution_notes,The new printer works great. Setup was smooth.,Positive,1378
+568,INC18362,short_description,Cannot Login to VPN Client,Negative,89
+569,INC18362,description,This is unacceptable performance for Outlook.,Negative,89
+570,INC18362,comments,Can you please provide an estimated resolution time?,Neutral,89
+571,INC18362,comments,Monitoring system performance after patch deployment.,Neutral,89
+572,INC18362,resolution_notes,Issue resolved quickly. Appreciate the help from Security Ops.,Positive,89
+573,REQ51236,short_description,Information Request,Neutral,2135
+574,REQ51236,description,Inquiry about the status of upgrade project 'Redefine 24/365 Applications'.,Neutral,2135
+575,REQ51236,comments,Attempted remote connection to user's machine. Failed.,Neutral,2135
+576,REQ51236,resolution_notes,User Justin Hooper confirmed resolution.,Positive,2135
+577,INC18363,short_description,keyboard Broken,Negative,1263
+578,INC18363,description,Cannot login to Teams. Getting error E7410. Urgent!,Negative,1263
+579,INC18363,resolution_notes,The new keyboard works great. Setup was smooth.,Positive,1263
+580,INC18364,short_description,Network Slow in New James,Negative,644
+581,INC18364,description,My docking station is broken. Need a replacement ASAP.,Negative,644
+582,INC18364,comments,Just checking in on the status.,Neutral,644
+583,INC18364,resolution_notes,Replaced faulty keyboard. Asset tag updated.,Neutral,644
+584,INC18365,short_description,printer Broken,Negative,505
+585,INC18365,description,My docking station is broken. Need a replacement ASAP.,Negative,505
+586,INC18365,resolution_notes,Problem solved after the steps you provided.,Positive,505
+587,INC18366,short_description,Login Problem SAP,Neutral,610
+588,INC18366,description,The provided solution did not work. Problem persists.,Negative,610
+589,INC18366,resolution_notes,Confirmed fix is working. Closing the ticket.,Positive,610
+590,REQ51237,short_description,New mouse Request,Neutral,2737
+591,REQ51237,description,Password reset required for Michael Villarreal DDS's account.,Neutral,2737
+592,REQ51237,comments,Assigned ticket to Server Support.,Neutral,2737
+593,REQ51237,resolution_notes,Provided user with documentation link. Closing ticket.,Neutral,2737
+594,INC18367,short_description,Internal Portal Down,Negative,1416
+595,INC18367,description,Network connection keeps dropping in Johnfurt office.,Negative,1416
+596,INC18367,comments,Is there any further information needed from my side?,Neutral,1416
+597,INC18367,resolution_notes,Confirmed fix is working. Closing the ticket.,Positive,1416
+598,INC18368,short_description,Internal Portal Down,Negative,1145
+599,INC18368,description,Cannot login to VPN Client. Getting error W6203. Urgent!,Negative,1145
+600,INC18368,resolution_notes,Great job on resolving the outage so fast!,Positive,1145
+601,INC18369,short_description,Network Slow in Aaronberg,Negative,1181
+602,INC18369,description,Still waiting for an update on my issue from yesterday.,Negative,1181
+603,INC18369,comments,Is there any further information needed from my side?,Neutral,1181
+604,INC18369,comments,Monitoring system performance after patch deployment.,Neutral,1181
+605,INC18369,resolution_notes,Finally working again after restart. Thanks!,Positive,1181
+606,INC18370,short_description,keyboard Broken,Negative,530
+607,INC18370,description,Frustrated with the constant issues with the laptop.,Negative,530
+608,INC18370,resolution_notes,Great job on resolving the outage so fast!,Positive,530
+609,REQ51238,short_description,Software Installation Outlook,Neutral,3029
+610,REQ51238,description,VM provisioning request based on template 'Dev VM Template'.,Neutral,3029
+611,REQ51238,resolution_notes,Root cause identified as benchmark robust communities. Permanent fix tracked in PRB4485.,Neutral,3029
+612,INC18371,short_description,desk phone Broken,Negative,1333
+613,INC18371,description,Teams is extremely slow today. Taking minutes to load.,Negative,1333
+614,INC18371,resolution_notes,The new mouse works great. Setup was smooth.,Positive,1333
+615,REQ51239,short_description,Information Request,Neutral,2431
+616,REQ51239,description,VM provisioning request based on template 'Test VM Template'.,Neutral,2431
+617,REQ51239,resolution_notes,Root cause identified as strategize e-business e-business. Permanent fix tracked in PRB3018.,Neutral,2431
+618,REQ51240,short_description,Request for HR System Access,Neutral,2189
+619,REQ51240,description,Password reset required for Darlene Kline's account.,Neutral,2189
+620,REQ51240,comments,Can you please provide an estimated resolution time?,Neutral,2189
+621,REQ51240,resolution_notes,Access granted. Thank you for the prompt response.,Positive,2189
+622,INC18372,short_description,Issue with keyboard,Neutral,1418
+623,INC18372,description,Frustrated with the constant issues with the desk phone.,Negative,1418
+624,INC18372,resolution_notes,User Dennis Moses confirmed issue resolved after clearing cache.,Neutral,1418
+625,INC18373,short_description,Urgent: Outlook Access Issue,Negative,1094
+626,INC18373,description,VPN Client is extremely slow today. Taking minutes to load.,Negative,1094
+627,INC18373,comments,Assigned ticket to Server Support.,Neutral,1094
+628,INC18373,comments,Attempted remote connection to user's machine. Failed.,Neutral,1094
+629,INC18373,comments,Can you please provide an estimated resolution time?,Neutral,1094
+630,INC18373,resolution_notes,User Kristen Holloway confirmed resolution.,Positive,1094
+631,INC18374,short_description,laptop Broken,Negative,362
+632,INC18374,description,Salesforce is extremely slow today. Taking minutes to load.,Negative,362
+633,INC18374,comments,Assigned ticket to Security Ops.,Neutral,362
+634,INC18374,comments,Assigned ticket to App Support Team.,Neutral,362
+635,INC18374,comments,Following up as requested.,Neutral,362
+636,INC18374,resolution_notes,Thanks! SAP is working perfectly now.,Positive,362
+637,REQ51241,short_description,Request for Internal Portal Access,Neutral,251
+638,REQ51241,description,User Nancy Perez reporting issue with docking station at Rhodesville.,Neutral,251
+639,REQ51241,resolution_notes,Closed per user request.,Neutral,251
+640,REQ51242,short_description,Request for Salesforce Access,Neutral,1878
+641,REQ51242,description,Inquiry about the status of upgrade project 'Streamline Value-Added Eyeballs'.,Neutral,1878
+642,REQ51242,resolution_notes,Great job on resolving the outage so fast!,Positive,1878
+643,REQ51243,short_description,Request for Outlook Access,Neutral,3462
+644,REQ51243,description,User John Pope reporting issue with mouse at North Kimberly.,Neutral,3462
+645,REQ51243,comments,Any update on this request?,Neutral,3462
+646,REQ51243,resolution_notes,Provided user with documentation link. Closing ticket.,Neutral,3462
+647,INC18375,short_description,Login Problem Outlook,Neutral,482
+648,INC18375,description,My laptop is broken. Need a replacement ASAP.,Negative,482
+649,INC18375,comments,Monitoring system performance after patch deployment.,Neutral,482
+650,INC18375,comments,Gathering more information from user Pamela Aguilar.,Neutral,482
+651,INC18375,comments,Reset password for Jeffery Spears and provided temporary one.,Neutral,482
+652,INC18375,resolution_notes,Finally working again after restart. Thanks!,Positive,482
+653,REQ51244,short_description,Software Installation SAP,Neutral,3884
+654,REQ51244,description,Following up on previous ticket INC11059.,Neutral,3884
+655,REQ51244,resolution_notes,Thanks! HR System is working perfectly now.,Positive,3884
+656,INC18376,short_description,Issue with keyboard,Neutral,1301
+657,INC18376,description,This is unacceptable performance for SAP.,Negative,1301
+658,INC18376,comments,Checked logs on WEB-SHE-71. Found error E6842.,Neutral,1301
+659,INC18376,comments,Monitoring system performance after patch deployment.,Neutral,1301
+660,INC18376,resolution_notes,The new keyboard works great. Setup was smooth.,Positive,1301
+661,INC18377,short_description,Urgent: Salesforce Access Issue,Negative,934
+662,INC18377,description,Error W2227 when trying to access the shared drive.,Negative,934
+663,INC18377,comments,Applied configuration change as per documentation.,Neutral,934
+664,INC18377,comments,No progress reported yet.,Negative,934
+665,INC18377,resolution_notes,Confirmed fix is working. Closing the ticket.,Positive,934
+666,REQ51245,short_description,New monitor Request,Neutral,1744
+667,REQ51245,description,VM provisioning request based on template 'Dev VM Template'.,Neutral,1744
+668,REQ51245,resolution_notes,Replaced faulty desk phone. Asset tag updated.,Neutral,1744
+669,INC18378,short_description,Login Problem Finance Tool,Neutral,595
+670,INC18378,description,System crash on DC-CANDIDATE-64. Lost work. Please investigate immediately.,Negative,595
+671,INC18378,comments,Checked logs on WEB-CONSIDER-62. Found error E514.,Neutral,595
+672,INC18378,comments,Is there any further information needed from my side?,Neutral,595
+673,INC18378,comments,Investigating network latency between Port Brianbury and DC.,Neutral,595
+674,INC18378,resolution_notes,Confirmed fix is working. Closing the ticket.,Positive,595
+675,INC18379,short_description,Network Slow in South Gwendolynstad,Negative,1174
+676,INC18379,description,Error W4211 when trying to access the shared drive.,Negative,1174
+677,INC18379,comments,Following up as requested.,Neutral,1174
+678,INC18379,comments,Escalating issue to Tier 3 support / Help Desk.,Neutral,1174
+679,INC18379,resolution_notes,Thanks! Teams is working perfectly now.,Positive,1174
+680,INC18380,short_description,desk phone Broken,Negative,1160
+681,INC18380,description,The provided solution did not work. Problem persists.,Negative,1160
+682,INC18380,comments,Any update on this request?,Neutral,1160
+683,INC18380,comments,Any update? Still blocked.,Negative,1160
+684,INC18380,comments,Any update on this request?,Neutral,1160
+685,INC18380,resolution_notes,Confirmed fix is working. Closing the ticket.,Positive,1160
+686,INC18381,short_description,Urgent: Salesforce Access Issue,Negative,425
+687,INC18381,description,System crash on WEB-LEVEL-85. Lost work. Please investigate immediately.,Negative,425
+688,INC18381,comments,Following up as requested.,Neutral,425
+689,INC18381,comments,Assigned ticket to Help Desk.,Neutral,425
+690,INC18381,resolution_notes,Finally working again after restart. Thanks!,Positive,425
+691,INC18382,short_description,Issue with desk phone,Neutral,82
+692,INC18382,description,System crash on APP-WRITER-12. Lost work. Please investigate immediately.,Negative,82
+693,INC18382,comments,Is there any further information needed from my side?,Neutral,82
+694,INC18382,resolution_notes,Provided user with documentation link. Closing ticket.,Neutral,82
+695,REQ51246,short_description,New laptop Request,Neutral,1279
+696,REQ51246,description,Submitting request for software license for Teams.,Neutral,1279
+697,REQ51246,resolution_notes,Replaced faulty laptop. Asset tag updated.,Neutral,1279
+698,INC18383,short_description,Teams Down,Negative,141
+699,INC18383,description,This is unacceptable performance for VPN Client.,Negative,141
+700,INC18383,resolution_notes,User Mr. Philip Calhoun confirmed issue resolved after clearing cache.,Neutral,141
+701,INC18384,short_description,Cannot Login to Finance Tool,Negative,84
+702,INC18384,description,Network connection keeps dropping in Campbellport office.,Negative,84
+703,INC18384,comments,Ordered replacement printer. ETA 2 days.,Neutral,84
+704,INC18384,comments,Following up as requested.,Neutral,84
+705,INC18384,resolution_notes,"Excellent support, problem fixed.",Positive,84
+706,REQ51247,short_description,Software Installation Outlook,Neutral,3554
+707,REQ51247,description,Hardware refresh needed for Elizabeth Hill. See attached list.,Neutral,3554
+708,REQ51247,resolution_notes,Access granted to Outlook. User notified.,Neutral,3554
+709,REQ51248,short_description,New laptop Request,Neutral,2872
+710,REQ51248,description,Need standard laptop for employee starting next week.,Neutral,2872
+711,REQ51248,comments,Checked logs on DC-CRIME-44. Found error C9239.,Neutral,2872
+712,REQ51248,resolution_notes,Root cause identified as re-contextualize visionary e-tailers. Permanent fix tracked in PRB8354.,Neutral,2872
+713,INC18385,short_description,Network Slow in North Leslie,Negative,639
+714,INC18385,description,System crash on APP-CHAIR-38. Lost work. Please investigate immediately.,Negative,639
+715,INC18385,comments,Any update on this request?,Neutral,639
+716,INC18385,comments,Reset password for Michael Moody and provided temporary one.,Neutral,639
+717,INC18385,comments,Following up as requested.,Neutral,639
+718,INC18385,resolution_notes,Great job on resolving the outage so fast!,Positive,639
+719,REQ51249,short_description,Information Request,Neutral,372
+720,REQ51249,description,Password reset required for Andrew Johnson's account.,Neutral,372
+721,REQ51249,resolution_notes,Access granted to SAP. User notified.,Neutral,372
+722,INC18386,short_description,Network Slow in Kingview,Negative,1045
+723,INC18386,description,Still waiting for an update on my issue from yesterday.,Negative,1045
+724,INC18386,comments,Monitoring system performance after patch deployment.,Neutral,1045
+725,INC18386,resolution_notes,The new laptop works great. Setup was smooth.,Positive,1045
+726,INC18387,short_description,desk phone Broken,Negative,1165
+727,INC18387,description,This is unacceptable performance for HR System.,Negative,1165
+728,INC18387,comments,Checked logs on DC-STREET-20. Found error C2314.,Neutral,1165
+729,INC18387,resolution_notes,Access granted. Thank you for the prompt response.,Positive,1165
+730,INC18388,short_description,laptop Broken,Negative,490
+731,INC18388,description,System crash on DB-TEND-99. Lost work. Please investigate immediately.,Negative,490
+732,INC18388,comments,Gathering more information from user Benjamin Romero.,Neutral,490
+733,INC18388,resolution_notes,Password reset completed. User able to login.,Neutral,490
+734,REQ51250,short_description,New monitor Request,Neutral,2361
+735,REQ51250,description,User Judy Morris reporting issue with keyboard at Rayfurt.,Neutral,2361
+736,REQ51250,resolution_notes,Great job on resolving the outage so fast!,Positive,2361
+737,REQ51251,short_description,Password Reset,Neutral,1910
+738,REQ51251,description,Submitting request for software license for Outlook.,Neutral,1910
+739,REQ51251,comments,Escalating issue to Tier 3 support / App Support Team.,Neutral,1910
+740,REQ51251,resolution_notes,Great job on resolving the outage so fast!,Positive,1910
+741,INC18389,short_description,HR System Down,Negative,377
+742,INC18389,description,Network connection keeps dropping in Hooperbury office.,Negative,377
+743,INC18389,resolution_notes,"Excellent support, problem fixed.",Positive,377
+744,INC18390,short_description,Issue with laptop,Neutral,134
+745,INC18390,description,My printer is broken. Need a replacement ASAP.,Negative,134
+746,INC18390,comments,Escalating issue to Tier 3 support / Desktop Support.,Neutral,134
+747,INC18390,resolution_notes,Issue resolved quickly. Appreciate the help from Desktop Support.,Positive,134
+748,INC18391,short_description,Teams Down,Negative,619
+749,INC18391,description,Network connection keeps dropping in North Brendamouth office.,Negative,619
+750,INC18391,comments,Investigating network latency between Port Heidiberg and DC.,Neutral,619
+751,INC18391,comments,Attempted remote connection to user's machine. Failed.,Neutral,619
+752,INC18391,resolution_notes,User Colton Wilson MD confirmed resolution.,Positive,619
+753,INC18392,short_description,printer Broken,Negative,644
+754,INC18392,description,Cannot login to Teams. Getting error C5951. Urgent!,Negative,644
+755,INC18392,comments,Attempted remote connection to user's machine. Failed.,Neutral,644
+756,INC18392,comments,Just checking in on the status.,Neutral,644
+757,INC18392,resolution_notes,Confirmed fix is working. Closing the ticket.,Positive,644
+758,REQ51252,short_description,New mouse Request,Neutral,3508
+759,REQ51252,description,VM provisioning request based on template 'Test VM Template'.,Neutral,3508
+760,REQ51252,comments,Investigating network latency between North Travistown and DC.,Neutral,3508
+761,REQ51252,resolution_notes,Problem solved after the steps you provided.,Positive,3508
+762,INC18393,short_description,Internal Portal Down,Negative,633
+763,INC18393,description,SAP is extremely slow today. Taking minutes to load.,Negative,633
+764,INC18393,comments,Can you please provide an estimated resolution time?,Neutral,633
+765,INC18393,resolution_notes,"Excellent support, problem fixed.",Positive,633
+766,INC18394,short_description,printer Broken,Negative,756
+767,INC18394,description,This is unacceptable performance for HR System.,Negative,756
+768,INC18394,comments,Following up as requested.,Neutral,756
+769,INC18394,resolution_notes,Problem solved after the steps you provided.,Positive,756
+770,INC18395,short_description,Network Slow in Wheelerhaven,Negative,1283
+771,INC18395,description,My printer is broken. Need a replacement ASAP.,Negative,1283
+772,INC18395,comments,Assigned ticket to Server Support.,Neutral,1283
+773,INC18395,resolution_notes,Access granted. Thank you for the prompt response.,Positive,1283
+774,INC18396,short_description,Login Problem Teams,Neutral,617
+775,INC18396,description,SAP is extremely slow today. Taking minutes to load.,Negative,617
+776,INC18396,comments,Monitoring system performance after patch deployment.,Neutral,617
+777,INC18396,comments,This is taking too long.,Negative,617
+778,INC18396,comments,Following up as requested.,Neutral,617
+779,INC18396,resolution_notes,Great job on resolving the outage so fast!,Positive,617
+780,INC18397,short_description,Network Slow in West Angelamouth,Negative,23
+781,INC18397,description,Frustrated with the constant issues with the printer.,Negative,23
+782,INC18397,comments,Following up as requested.,Neutral,23
+783,INC18397,comments,This is taking too long.,Negative,23
+784,INC18397,comments,Applied configuration change as per documentation.,Neutral,23
+785,INC18397,resolution_notes,Access granted. Thank you for the prompt response.,Positive,23
+786,INC18398,short_description,Issue with monitor,Neutral,1101
+787,INC18398,description,The provided solution did not work. Problem persists.,Negative,1101
+788,INC18398,comments,Investigating network latency between Gordonview and DC.,Neutral,1101
+789,INC18398,comments,Is there any further information needed from my side?,Neutral,1101
+790,INC18398,resolution_notes,"Excellent support, problem fixed.",Positive,1101
+791,INC18399,short_description,Teams Down,Negative,769
+792,INC18399,description,Network connection keeps dropping in Jessicachester office.,Negative,769
+793,INC18399,comments,Gathering more information from user Anita Hernandez.,Neutral,769
+794,INC18399,resolution_notes,Problem solved after the steps you provided.,Positive,769
+795,INC18400,short_description,Cannot Login to HR System,Negative,1257
+796,INC18400,description,Network connection keeps dropping in Jonathonfort office.,Negative,1257
+797,INC18400,comments,Applied configuration change as per documentation.,Neutral,1257
+798,INC18400,comments,Applied configuration change as per documentation.,Neutral,1257
+799,INC18400,resolution_notes,Confirmed fix is working. Closing the ticket.,Positive,1257
+800,REQ51253,short_description,Request for VPN Client Access,Neutral,403
+801,REQ51253,description,Following up on previous ticket INC13562.,Neutral,403
+802,REQ51253,comments,Gathering more information from user Paul Martin.,Neutral,403
+803,REQ51253,resolution_notes,Network configuration corrected by Desktop Support.,Neutral,403
+804,REQ51254,short_description,Information Request,Neutral,3351
+805,REQ51254,description,Following up on previous ticket INC10560.,Neutral,3351
+806,REQ51254,comments,Can you please provide an estimated resolution time?,Neutral,3351
+807,REQ51254,resolution_notes,Issue resolved quickly. Appreciate the help from App Support Team.,Positive,3351
+808,INC18401,short_description,Network Slow in East Cody,Negative,1019
+809,INC18401,description,Cannot login to Salesforce. Getting error E4606. Urgent!,Negative,1019
+810,INC18401,comments,Escalating issue to Tier 3 support / Security Ops.,Neutral,1019
+811,INC18401,comments,Reset password for Vernon Petty and provided temporary one.,Neutral,1019
+812,INC18401,comments,Can you please provide an estimated resolution time?,Neutral,1019
+813,INC18401,resolution_notes,Issue resolved quickly. Appreciate the help from Help Desk.,Positive,1019
+814,INC18402,short_description,Network Slow in Hoville,Negative,226
+815,INC18402,description,SAP is extremely slow today. Taking minutes to load.,Negative,226
+816,INC18402,comments,Just checking in on the status.,Neutral,226
+817,INC18402,resolution_notes,User Robert Lewis confirmed resolution.,Positive,226
+818,REQ51255,short_description,Information Request,Neutral,2899
+819,REQ51255,description,Hardware refresh needed for Mario Williams. See attached list.,Neutral,2899
+820,REQ51255,comments,Escalating issue to Tier 3 support / Network Team.,Neutral,2899
+821,REQ51255,resolution_notes,Password reset completed. User able to login.,Neutral,2899
+822,INC18403,short_description,Login Problem Outlook,Neutral,721
+823,INC18403,description,System crash on DB-NOW-57. Lost work. Please investigate immediately.,Negative,721
+824,INC18403,comments,Reset password for Jack Flores and provided temporary one.,Neutral,721
+825,INC18403,comments,Attempted remote connection to user's machine. Failed.,Neutral,721
+826,INC18403,comments,Is anyone working on this??,Negative,721
+827,INC18403,resolution_notes,Finally working again after restart. Thanks!,Positive,721
+828,INC18404,short_description,VPN Client Down,Negative,342
+829,INC18404,description,This is unacceptable performance for Internal Portal.,Negative,342
+830,INC18404,resolution_notes,Confirmed fix is working. Closing the ticket.,Positive,342
+831,INC18405,short_description,Urgent: HR System Access Issue,Negative,567
+832,INC18405,description,Frustrated with the constant issues with the keyboard.,Negative,567
+833,INC18405,comments,Is there any further information needed from my side?,Neutral,567
+834,INC18405,resolution_notes,User Leslie Stewart confirmed resolution.,Positive,567
+835,REQ51256,short_description,Software Installation HR System,Neutral,2582
+836,REQ51256,description,Password reset required for Anna Young's account.,Neutral,2582
+837,REQ51256,comments,Reset password for Justin Brown and provided temporary one.,Neutral,2582
+838,REQ51256,resolution_notes,Access granted to Finance Tool. User notified.,Neutral,2582
+839,INC18406,short_description,Network Slow in Gonzalesmouth,Negative,427
+840,INC18406,description,Still waiting for an update on my issue from yesterday.,Negative,427
+841,INC18406,comments,Ordered replacement desk phone. ETA 2 days.,Neutral,427
+842,INC18406,comments,Assigned ticket to Network Team.,Neutral,427
+843,INC18406,resolution_notes,Issue resolved quickly. Appreciate the help from Network Team.,Positive,427
+844,REQ51257,short_description,Software Installation Finance Tool,Neutral,2476
+845,REQ51257,description,VM provisioning request based on template 'Standard VM Template'.,Neutral,2476
+846,REQ51257,resolution_notes,User Nicholas Kim confirmed resolution.,Positive,2476
+847,INC18407,short_description,Connectivity Error,Neutral,1016
+848,INC18407,description,This is unacceptable performance for SAP.,Negative,1016
+849,INC18407,comments,Applied configuration change as per documentation.,Neutral,1016
+850,INC18407,resolution_notes,Issue resolved quickly. Appreciate the help from Security Ops.,Positive,1016
+851,REQ51258,short_description,Information Request,Neutral,4176
+852,REQ51258,description,Following up on previous ticket INC12803.,Neutral,4176
+853,REQ51258,resolution_notes,Network configuration corrected by Security Ops.,Neutral,4176
+854,INC18408,short_description,Cannot Login to Teams,Negative,379
+855,INC18408,description,Still waiting for an update on my issue from yesterday.,Negative,379
+856,INC18408,comments,Ordered replacement printer. ETA 2 days.,Neutral,379
+857,INC18408,resolution_notes,Great job on resolving the outage so fast!,Positive,379
+858,REQ51259,short_description,New keyboard Request,Neutral,2808
+859,REQ51259,description,User Michael Mcguire reporting issue with keyboard at Lake David.,Neutral,2808
+860,REQ51259,comments,Applied configuration change as per documentation.,Neutral,2808
+861,REQ51259,resolution_notes,Thanks! Internal Portal is working perfectly now.,Positive,2808
+862,INC18409,short_description,docking station Broken,Negative,753
+863,INC18409,description,System crash on APP-BOX-95. Lost work. Please investigate immediately.,Negative,753
+864,INC18409,comments,Can you please provide an estimated resolution time?,Neutral,753
+865,INC18409,resolution_notes,The new desk phone works great. Setup was smooth.,Positive,753
+866,REQ51260,short_description,Password Reset,Neutral,3849
+867,REQ51260,description,Need standard keyboard for employee starting next week.,Neutral,3849
+868,REQ51260,resolution_notes,Software installed and verified with user.,Neutral,3849
+869,REQ51261,short_description,New laptop Request,Neutral,3484
+870,REQ51261,description,Following up on previous ticket INC12145.,Neutral,3484
+871,REQ51261,comments,Any update on this request?,Neutral,3484
+872,REQ51261,resolution_notes,Provided user with documentation link. Closing ticket.,Neutral,3484
+873,INC18410,short_description,Issue with monitor,Neutral,642
+874,INC18410,description,Frustrated with the constant issues with the docking station.,Negative,642
+875,INC18410,comments,Following up as requested.,Neutral,642
+876,INC18410,comments,Investigating network latency between South Jack and DC.,Neutral,642
+877,INC18410,resolution_notes,Issue resolved quickly. Appreciate the help from Security Ops.,Positive,642
+878,INC18411,short_description,printer Broken,Negative,485
+879,INC18411,description,Finance Tool is extremely slow today. Taking minutes to load.,Negative,485
+880,INC18411,comments,Escalating issue to Tier 3 support / App Support Team.,Neutral,485
+881,INC18411,comments,Is there any further information needed from my side?,Neutral,485
+882,INC18411,resolution_notes,The new docking station works great. Setup was smooth.,Positive,485
+883,REQ51262,short_description,New printer Request,Neutral,647
+884,REQ51262,description,Inquiry about the status of upgrade project 'Transition B2C Communities'.,Neutral,647
+885,REQ51262,resolution_notes,Problem solved after the steps you provided.,Positive,647
+886,INC18412,short_description,SAP Down,Negative,1378
+887,INC18412,description,System crash on WEB-INSTEAD-39. Lost work. Please investigate immediately.,Negative,1378
+888,INC18412,comments,Following up as requested.,Neutral,1378
+889,INC18412,comments,Reset password for Christina Keller and provided temporary one.,Neutral,1378
+890,INC18412,comments,Attempted remote connection to user's machine. Failed.,Neutral,1378
+891,INC18412,resolution_notes,"Excellent support, problem fixed.",Positive,1378
+892,REQ51263,short_description,Password Reset,Neutral,2942
+893,REQ51263,description,Password reset required for Mrs. Brenda Curtis DDS's account.,Neutral,2942
+894,REQ51263,resolution_notes,Finally working again after restart. Thanks!,Positive,2942
+895,INC18413,short_description,Connectivity Error,Neutral,852
+896,INC18413,description,Cannot login to VPN Client. Getting error C2821. Urgent!,Negative,852
+897,INC18413,resolution_notes,Confirmed fix is working. Closing the ticket.,Positive,852
+898,INC18414,short_description,Network Slow in South Brenda,Negative,962
+899,INC18414,description,Frustrated with the constant issues with the printer.,Negative,962
+900,INC18414,comments,Is there any further information needed from my side?,Neutral,962
+901,INC18414,comments,Reset password for Jennifer Jacobson and provided temporary one.,Neutral,962
+902,INC18414,comments,Reset password for Samuel Perez and provided temporary one.,Neutral,962
+903,INC18414,resolution_notes,Confirmed fix is working. Closing the ticket.,Positive,962
+904,REQ51264,short_description,New docking station Request,Neutral,1348
+905,REQ51264,description,Password reset required for Ashley Thomas's account.,Neutral,1348
+906,REQ51264,resolution_notes,Great job on resolving the outage so fast!,Positive,1348
+907,INC18415,short_description,desk phone Broken,Negative,137
+908,INC18415,description,The provided solution did not work. Problem persists.,Negative,137
+909,INC18415,comments,Ordered replacement docking station. ETA 2 days.,Neutral,137
+910,INC18415,comments,This impacts deadline 2025-04-12. Need resolution!,Negative,137
+911,INC18415,comments,No progress reported yet.,Negative,137
+912,INC18415,resolution_notes,Finally working again after restart. Thanks!,Positive,137
+913,INC18416,short_description,Connectivity Error,Neutral,174
+914,INC18416,description,System crash on APP-SEE-55. Lost work. Please investigate immediately.,Negative,174
+915,INC18416,resolution_notes,Finally working again after restart. Thanks!,Positive,174
+916,INC18417,short_description,Teams Down,Negative,1082
+917,INC18417,description,Error C8981 when trying to access the shared drive.,Negative,1082
+918,INC18417,resolution_notes,Issue resolved quickly. Appreciate the help from Help Desk.,Positive,1082
+919,INC18418,short_description,Network Slow in West Sydney,Negative,573
+920,INC18418,description,Error W9770 when trying to access the shared drive.,Negative,573
+921,INC18418,resolution_notes,Access granted. Thank you for the prompt response.,Positive,573
+922,INC18419,short_description,Cannot Login to VPN Client,Negative,441
+923,INC18419,description,My mouse is broken. Need a replacement ASAP.,Negative,441
+924,INC18419,resolution_notes,Finally working again after restart. Thanks!,Positive,441
+925,REQ51265,short_description,Request for HR System Access,Neutral,1245
+926,REQ51265,description,Following up on previous ticket INC13768.,Neutral,1245
+927,REQ51265,resolution_notes,Resolved by restarting the Internal Portal service on DB-RESPONSIBILITY-17.,Neutral,1245
+928,REQ51266,short_description,New mouse Request,Neutral,4060
+929,REQ51266,description,Requesting information on how to configure MFA.,Neutral,4060
+930,REQ51266,resolution_notes,Thanks! Teams is working perfectly now.,Positive,4060
+931,INC18420,short_description,Issue with laptop,Neutral,310
+932,INC18420,description,Still waiting for an update on my issue from yesterday.,Negative,310
+933,INC18420,resolution_notes,Issue resolved quickly. Appreciate the help from App Support Team.,Positive,310
+934,REQ51267,short_description,Software Installation SAP,Neutral,1862
+935,REQ51267,description,Submitting request for software license for Finance Tool.,Neutral,1862
+936,REQ51267,comments,Gathering more information from user Russell Stewart.,Neutral,1862
+937,REQ51267,resolution_notes,Closed per user request.,Neutral,1862
+938,INC18421,short_description,HR System Down,Negative,598
+939,INC18421,description,System crash on APP-THEM-21. Lost work. Please investigate immediately.,Negative,598
+940,INC18421,comments,Reset password for George Williams and provided temporary one.,Neutral,598
+941,INC18421,resolution_notes,Confirmed fix is working. Closing the ticket.,Positive,598
+942,REQ51268,short_description,Information Request,Neutral,996
+943,REQ51268,description,Submitting request for software license for Teams.,Neutral,996
+944,REQ51268,resolution_notes,Access granted to SAP. User notified.,Neutral,996
+945,REQ51269,short_description,Information Request,Neutral,3124
+946,REQ51269,description,Inquiry about the status of upgrade project 'Harness Bricks-And-Clicks Niches'.,Neutral,3124
+947,REQ51269,resolution_notes,Root cause identified as enhance world-class interfaces. Permanent fix tracked in PRB4630.,Neutral,3124
+948,REQ51270,short_description,New printer Request,Neutral,1772
+949,REQ51270,description,Requesting information on how to configure MFA.,Neutral,1772
+950,REQ51270,resolution_notes,Network configuration corrected by Security Ops.,Neutral,1772
+951,INC18422,short_description,Cannot Login to SAP,Negative,1033
+952,INC18422,description,Still waiting for an update on my issue from yesterday.,Negative,1033
+953,INC18422,resolution_notes,Thanks! HR System is working perfectly now.,Positive,1033
+954,REQ51271,short_description,Request for Finance Tool Access,Neutral,814
+955,REQ51271,description,Inquiry about the status of upgrade project 'Whiteboard Cross-Platform Initiatives'.,Neutral,814
+956,REQ51271,resolution_notes,The new monitor works great. Setup was smooth.,Positive,814
+957,REQ51272,short_description,Information Request,Neutral,3962
+958,REQ51272,description,Requesting access to Finance Tool for new user Michael Mays.,Neutral,3962
+959,REQ51272,resolution_notes,Password reset completed. User able to login.,Neutral,3962
+960,INC18423,short_description,Network Slow in Phillipburgh,Negative,1431
+961,INC18423,description,Cannot login to Outlook. Getting error C818. Urgent!,Negative,1431
+962,INC18423,comments,Investigating network latency between Patriciachester and DC.,Neutral,1431
+963,INC18423,comments,Can you please provide an estimated resolution time?,Neutral,1431
+964,INC18423,resolution_notes,Great job on resolving the outage so fast!,Positive,1431
+965,INC18424,short_description,Login Problem Teams,Neutral,429
+966,INC18424,description,HR System is extremely slow today. Taking minutes to load.,Negative,429
+967,INC18424,resolution_notes,Finally working again after restart. Thanks!,Positive,429
+968,INC18425,short_description,Urgent: Outlook Access Issue,Negative,364
+969,INC18425,description,Error C5392 when trying to access the shared drive.,Negative,364
+970,INC18425,resolution_notes,User Susan Martinez confirmed resolution.,Positive,364
+971,REQ51273,short_description,New monitor Request,Neutral,550
+972,REQ51273,description,Following up on previous ticket INC17811.,Neutral,550
+973,REQ51273,resolution_notes,User Joseph Bishop confirmed issue resolved after clearing cache.,Neutral,550
+974,REQ51274,short_description,New monitor Request,Neutral,2806
+975,REQ51274,description,Need standard monitor for employee starting next week.,Neutral,2806
+976,REQ51274,resolution_notes,Software installed and verified with user.,Neutral,2806
+977,REQ51275,short_description,Information Request,Neutral,2010
+978,REQ51275,description,Password reset required for David Parker's account.,Neutral,2010
+979,REQ51275,resolution_notes,The new docking station works great. Setup was smooth.,Positive,2010
+980,INC18426,short_description,mouse Broken,Negative,823
+981,INC18426,description,Frustrated with the constant issues with the laptop.,Negative,823
+982,INC18426,comments,Gathering more information from user Savannah Norman.,Neutral,823
+983,INC18426,comments,No progress reported yet.,Negative,823
+984,INC18426,resolution_notes,Provided user with documentation link. Closing ticket.,Neutral,823
+985,INC18427,short_description,Urgent: Outlook Access Issue,Negative,194
+986,INC18427,description,Cannot login to VPN Client. Getting error W8554. Urgent!,Negative,194
+987,INC18427,resolution_notes,The new mouse works great. Setup was smooth.,Positive,194
+988,REQ51276,short_description,New mouse Request,Neutral,562
+989,REQ51276,description,Requesting information on how to configure MFA.,Neutral,562
+990,REQ51276,comments,Gathering more information from user Nicole Thompson.,Neutral,562
+991,REQ51276,resolution_notes,The new laptop works great. Setup was smooth.,Positive,562
+992,INC18428,short_description,Network Slow in Jamesborough,Negative,427
+993,INC18428,description,Salesforce is extremely slow today. Taking minutes to load.,Negative,427
+994,INC18428,resolution_notes,User Teresa Huynh confirmed resolution.,Positive,427
+995,INC18429,short_description,Cannot Login to Outlook,Negative,1092
+996,INC18429,description,Error C5849 when trying to access the shared drive.,Negative,1092
+997,INC18429,comments,Is there any further information needed from my side?,Neutral,1092
+998,INC18429,comments,Monitoring system performance after patch deployment.,Neutral,1092
+999,INC18429,resolution_notes,"Excellent support, problem fixed.",Positive,1092
+1000,INC18430,short_description,Cannot Login to Finance Tool,Negative,1160
