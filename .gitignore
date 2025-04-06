@@ -172,4 +172,4 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
-sentiment-finetuned-mps/
+*sentiment-finetuned-mps/
