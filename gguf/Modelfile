@@ -1,0 +1,2 @@
+FROM ./sentiment-finetuned-mps.gguf
+PARAMETER stop "<|end|>"

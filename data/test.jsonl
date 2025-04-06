@@ -1,0 +1,150 @@
+{"text": "<|user|>\nClassify the sentiment (Positive, Negative, or Neutral) for this ServiceNow ticket text:\nMy phone is broken. Need replacement. <|end|>\n<|assistant|> \nNegative <|end|>"}
+{"text": "<|user|>\nClassify the sentiment (Positive, Negative, or Neutral) for this ServiceNow ticket text:\nRequesting access to Portal for new user Laurie Hinton. <|end|>\n<|assistant|> \nNeutral <|end|>"}
+{"text": "<|user|>\nClassify the sentiment (Positive, Negative, or Neutral) for this ServiceNow ticket text:\nGreat job resolving the outage! <|end|>\n<|assistant|> \nPositive <|end|>"}
+{"text": "<|user|>\nClassify the sentiment (Positive, Negative, or Neutral) for this ServiceNow ticket text:\nFollowing up on ticket REQ51884. <|end|>\n<|assistant|> \nNeutral <|end|>"}
+{"text": "<|user|>\nClassify the sentiment (Positive, Negative, or Neutral) for this ServiceNow ticket text:\nFollowing up on ticket REQ37862. <|end|>\n<|assistant|> \nNeutral <|end|>"}
+{"text": "<|user|>\nClassify the sentiment (Positive, Negative, or Neutral) for this ServiceNow ticket text:\nGreat job resolving the outage! <|end|>\n<|assistant|> \nPositive <|end|>"}
+{"text": "<|user|>\nClassify the sentiment (Positive, Negative, or Neutral) for this ServiceNow ticket text:\nTeams extremely slow today. <|end|>\n<|assistant|> \nNegative <|end|>"}
+{"text": "<|user|>\nClassify the sentiment (Positive, Negative, or Neutral) for this ServiceNow ticket text:\nSystem crash on SRV-CHOICE-7. Lost work! <|end|>\n<|assistant|> \nNegative <|end|>"}
+{"text": "<|user|>\nClassify the sentiment (Positive, Negative, or Neutral) for this ServiceNow ticket text:\nFollowing up on ticket INC93895. <|end|>\n<|assistant|> \nNeutral <|end|>"}
+{"text": "<|user|>\nClassify the sentiment (Positive, Negative, or Neutral) for this ServiceNow ticket text:\nVM provisioning request. <|end|>\n<|assistant|> \nNeutral <|end|>"}
+{"text": "<|user|>\nClassify the sentiment (Positive, Negative, or Neutral) for this ServiceNow ticket text:\nVM provisioning request. <|end|>\n<|assistant|> \nNeutral <|end|>"}
+{"text": "<|user|>\nClassify the sentiment (Positive, Negative, or Neutral) for this ServiceNow ticket text:\nPlease provide info on MFA setup. <|end|>\n<|assistant|> \nNeutral <|end|>"}
+{"text": "<|user|>\nClassify the sentiment (Positive, Negative, or Neutral) for this ServiceNow ticket text:\nRequesting access to VPN for new user Stacy Riley. <|end|>\n<|assistant|> \nNeutral <|end|>"}
+{"text": "<|user|>\nClassify the sentiment (Positive, Negative, or Neutral) for this ServiceNow ticket text:\nCannot login to Portal. Error E187. Urgent! <|end|>\n<|assistant|> \nNegative <|end|>"}
+{"text": "<|user|>\nClassify the sentiment (Positive, Negative, or Neutral) for this ServiceNow ticket text:\nNetwork connection keeps dropping in Heidishire. <|end|>\n<|assistant|> \nNegative <|end|>"}
+{"text": "<|user|>\nClassify the sentiment (Positive, Negative, or Neutral) for this ServiceNow ticket text:\nMy phone is broken. Need replacement. <|end|>\n<|assistant|> \nNegative <|end|>"}
+{"text": "<|user|>\nClassify the sentiment (Positive, Negative, or Neutral) for this ServiceNow ticket text:\nRequesting access to Salesforce for new user Judy Larson. <|end|>\n<|assistant|> \nNeutral <|end|>"}
+{"text": "<|user|>\nClassify the sentiment (Positive, Negative, or Neutral) for this ServiceNow ticket text:\nInquiry about status of Maximize Cross-Platform Relationships project. <|end|>\n<|assistant|> \nNeutral <|end|>"}
+{"text": "<|user|>\nClassify the sentiment (Positive, Negative, or Neutral) for this ServiceNow ticket text:\nAccess granted. Thank you! <|end|>\n<|assistant|> \nPositive <|end|>"}
+{"text": "<|user|>\nClassify the sentiment (Positive, Negative, or Neutral) for this ServiceNow ticket text:\nMy phone is broken. Need replacement. <|end|>\n<|assistant|> \nNegative <|end|>"}
+{"text": "<|user|>\nClassify the sentiment (Positive, Negative, or Neutral) for this ServiceNow ticket text:\nRequesting access to Outlook for new user Marc Crawford. <|end|>\n<|assistant|> \nNeutral <|end|>"}
+{"text": "<|user|>\nClassify the sentiment (Positive, Negative, or Neutral) for this ServiceNow ticket text:\nPassword reset required for Mary Hoffman. <|end|>\n<|assistant|> \nNeutral <|end|>"}
+{"text": "<|user|>\nClassify the sentiment (Positive, Negative, or Neutral) for this ServiceNow ticket text:\nCannot login to Outlook. Error E960. Urgent! <|end|>\n<|assistant|> \nNegative <|end|>"}
+{"text": "<|user|>\nClassify the sentiment (Positive, Negative, or Neutral) for this ServiceNow ticket text:\nMy phone is broken. Need replacement. <|end|>\n<|assistant|> \nNegative <|end|>"}
+{"text": "<|user|>\nClassify the sentiment (Positive, Negative, or Neutral) for this ServiceNow ticket text:\nThanks! Outlook working perfectly now. <|end|>\n<|assistant|> \nPositive <|end|>"}
+{"text": "<|user|>\nClassify the sentiment (Positive, Negative, or Neutral) for this ServiceNow ticket text:\nSolution did not work. Problem persists. <|end|>\n<|assistant|> \nNegative <|end|>"}
+{"text": "<|user|>\nClassify the sentiment (Positive, Negative, or Neutral) for this ServiceNow ticket text:\nRequesting access to Portal for new user Heather Webb. <|end|>\n<|assistant|> \nNeutral <|end|>"}
+{"text": "<|user|>\nClassify the sentiment (Positive, Negative, or Neutral) for this ServiceNow ticket text:\nExcellent support, problem fixed. <|end|>\n<|assistant|> \nPositive <|end|>"}
+{"text": "<|user|>\nClassify the sentiment (Positive, Negative, or Neutral) for this ServiceNow ticket text:\nInquiry about status of Brand Out-Of-The-Box Users project. <|end|>\n<|assistant|> \nNeutral <|end|>"}
+{"text": "<|user|>\nClassify the sentiment (Positive, Negative, or Neutral) for this ServiceNow ticket text:\nResolution Note: Restarted service on SRV-DESPITE-1. User confirmed fix. <|end|>\n<|assistant|> \nNeutral <|end|>"}
+{"text": "<|user|>\nClassify the sentiment (Positive, Negative, or Neutral) for this ServiceNow ticket text:\nProblem solved after following your steps. <|end|>\n<|assistant|> \nPositive <|end|>"}
+{"text": "<|user|>\nClassify the sentiment (Positive, Negative, or Neutral) for this ServiceNow ticket text:\nStill waiting for update from yesterday. Very frustrating. <|end|>\n<|assistant|> \nNegative <|end|>"}
+{"text": "<|user|>\nClassify the sentiment (Positive, Negative, or Neutral) for this ServiceNow ticket text:\nInquiry about status of Facilitate Wireless Applications project. <|end|>\n<|assistant|> \nNeutral <|end|>"}
+{"text": "<|user|>\nClassify the sentiment (Positive, Negative, or Neutral) for this ServiceNow ticket text:\nTeams extremely slow today. <|end|>\n<|assistant|> \nNegative <|end|>"}
+{"text": "<|user|>\nClassify the sentiment (Positive, Negative, or Neutral) for this ServiceNow ticket text:\nConfirmed fix is working. Closing ticket now. <|end|>\n<|assistant|> \nPositive <|end|>"}
+{"text": "<|user|>\nClassify the sentiment (Positive, Negative, or Neutral) for this ServiceNow ticket text:\nSubmitting request for software license for Salesforce. <|end|>\n<|assistant|> \nNeutral <|end|>"}
+{"text": "<|user|>\nClassify the sentiment (Positive, Negative, or Neutral) for this ServiceNow ticket text:\nPassword reset required for John Jackson. <|end|>\n<|assistant|> \nNeutral <|end|>"}
+{"text": "<|user|>\nClassify the sentiment (Positive, Negative, or Neutral) for this ServiceNow ticket text:\nStill waiting for update from yesterday. Very frustrating. <|end|>\n<|assistant|> \nNegative <|end|>"}
+{"text": "<|user|>\nClassify the sentiment (Positive, Negative, or Neutral) for this ServiceNow ticket text:\nPlease provide info on MFA setup. <|end|>\n<|assistant|> \nNeutral <|end|>"}
+{"text": "<|user|>\nClassify the sentiment (Positive, Negative, or Neutral) for this ServiceNow ticket text:\nCannot login to Teams. Error E884. Urgent! <|end|>\n<|assistant|> \nNegative <|end|>"}
+{"text": "<|user|>\nClassify the sentiment (Positive, Negative, or Neutral) for this ServiceNow ticket text:\nPassword reset required for Michelle Underwood. <|end|>\n<|assistant|> \nNeutral <|end|>"}
+{"text": "<|user|>\nClassify the sentiment (Positive, Negative, or Neutral) for this ServiceNow ticket text:\nExcellent support, problem fixed. <|end|>\n<|assistant|> \nPositive <|end|>"}
+{"text": "<|user|>\nClassify the sentiment (Positive, Negative, or Neutral) for this ServiceNow ticket text:\nWork Note: Checked logs on SRV-SOUND-4. Assigning to Network. <|end|>\n<|assistant|> \nNeutral <|end|>"}
+{"text": "<|user|>\nClassify the sentiment (Positive, Negative, or Neutral) for this ServiceNow ticket text:\nVM provisioning request. <|end|>\n<|assistant|> \nNeutral <|end|>"}
+{"text": "<|user|>\nClassify the sentiment (Positive, Negative, or Neutral) for this ServiceNow ticket text:\nSystem crash on SRV-TWO-4. Lost work! <|end|>\n<|assistant|> \nNegative <|end|>"}
+{"text": "<|user|>\nClassify the sentiment (Positive, Negative, or Neutral) for this ServiceNow ticket text:\nSolution did not work. Problem persists. <|end|>\n<|assistant|> \nNegative <|end|>"}
+{"text": "<|user|>\nClassify the sentiment (Positive, Negative, or Neutral) for this ServiceNow ticket text:\nResolution Note: Restarted service on SRV-AVAILABLE-7. User confirmed fix. <|end|>\n<|assistant|> \nNeutral <|end|>"}
+{"text": "<|user|>\nClassify the sentiment (Positive, Negative, or Neutral) for this ServiceNow ticket text:\nSolution did not work. Problem persists. <|end|>\n<|assistant|> \nNegative <|end|>"}
+{"text": "<|user|>\nClassify the sentiment (Positive, Negative, or Neutral) for this ServiceNow ticket text:\nVM provisioning request. <|end|>\n<|assistant|> \nNeutral <|end|>"}
+{"text": "<|user|>\nClassify the sentiment (Positive, Negative, or Neutral) for this ServiceNow ticket text:\nFollowing up on ticket REQ82110. <|end|>\n<|assistant|> \nNeutral <|end|>"}
+{"text": "<|user|>\nClassify the sentiment (Positive, Negative, or Neutral) for this ServiceNow ticket text:\nUser Meghan Mcbride reporting issue with monitor at Jonesberg. <|end|>\n<|assistant|> \nNeutral <|end|>"}
+{"text": "<|user|>\nClassify the sentiment (Positive, Negative, or Neutral) for this ServiceNow ticket text:\nAdditional Comment: Any update on this request? <|end|>\n<|assistant|> \nNeutral <|end|>"}
+{"text": "<|user|>\nClassify the sentiment (Positive, Negative, or Neutral) for this ServiceNow ticket text:\nStill waiting for update from yesterday. Very frustrating. <|end|>\n<|assistant|> \nNegative <|end|>"}
+{"text": "<|user|>\nClassify the sentiment (Positive, Negative, or Neutral) for this ServiceNow ticket text:\nExcellent support, problem fixed. <|end|>\n<|assistant|> \nPositive <|end|>"}
+{"text": "<|user|>\nClassify the sentiment (Positive, Negative, or Neutral) for this ServiceNow ticket text:\nNetwork connection keeps dropping in Lake Haroldburgh. <|end|>\n<|assistant|> \nNegative <|end|>"}
+{"text": "<|user|>\nClassify the sentiment (Positive, Negative, or Neutral) for this ServiceNow ticket text:\nIssue resolved quickly by Network. Appreciate the help! <|end|>\n<|assistant|> \nPositive <|end|>"}
+{"text": "<|user|>\nClassify the sentiment (Positive, Negative, or Neutral) for this ServiceNow ticket text:\nNeed standard laptop for new employee. <|end|>\n<|assistant|> \nNeutral <|end|>"}
+{"text": "<|user|>\nClassify the sentiment (Positive, Negative, or Neutral) for this ServiceNow ticket text:\nSolution did not work. Problem persists. <|end|>\n<|assistant|> \nNegative <|end|>"}
+{"text": "<|user|>\nClassify the sentiment (Positive, Negative, or Neutral) for this ServiceNow ticket text:\nVM provisioning request. <|end|>\n<|assistant|> \nNeutral <|end|>"}
+{"text": "<|user|>\nClassify the sentiment (Positive, Negative, or Neutral) for this ServiceNow ticket text:\nNetwork connection keeps dropping in Port Christiefurt. <|end|>\n<|assistant|> \nNegative <|end|>"}
+{"text": "<|user|>\nClassify the sentiment (Positive, Negative, or Neutral) for this ServiceNow ticket text:\nWork Note: Checked logs on SRV-AGAIN-1. Assigning to ServerTeam. <|end|>\n<|assistant|> \nNeutral <|end|>"}
+{"text": "<|user|>\nClassify the sentiment (Positive, Negative, or Neutral) for this ServiceNow ticket text:\nVM provisioning request. <|end|>\n<|assistant|> \nNeutral <|end|>"}
+{"text": "<|user|>\nClassify the sentiment (Positive, Negative, or Neutral) for this ServiceNow ticket text:\nSubmitting request for software license for VPN. <|end|>\n<|assistant|> \nNeutral <|end|>"}
+{"text": "<|user|>\nClassify the sentiment (Positive, Negative, or Neutral) for this ServiceNow ticket text:\nFollowing up on ticket INC68259. <|end|>\n<|assistant|> \nNeutral <|end|>"}
+{"text": "<|user|>\nClassify the sentiment (Positive, Negative, or Neutral) for this ServiceNow ticket text:\nNeed standard printer for new employee. <|end|>\n<|assistant|> \nNeutral <|end|>"}
+{"text": "<|user|>\nClassify the sentiment (Positive, Negative, or Neutral) for this ServiceNow ticket text:\nCannot login to Portal. Error E502. Urgent! <|end|>\n<|assistant|> \nNegative <|end|>"}
+{"text": "<|user|>\nClassify the sentiment (Positive, Negative, or Neutral) for this ServiceNow ticket text:\nSubmitting request for software license for Outlook. <|end|>\n<|assistant|> \nNeutral <|end|>"}
+{"text": "<|user|>\nClassify the sentiment (Positive, Negative, or Neutral) for this ServiceNow ticket text:\nVPN extremely slow today. <|end|>\n<|assistant|> \nNegative <|end|>"}
+{"text": "<|user|>\nClassify the sentiment (Positive, Negative, or Neutral) for this ServiceNow ticket text:\nUnacceptable performance for Portal. <|end|>\n<|assistant|> \nNegative <|end|>"}
+{"text": "<|user|>\nClassify the sentiment (Positive, Negative, or Neutral) for this ServiceNow ticket text:\nPassword reset required for Jackie Flores. <|end|>\n<|assistant|> \nNeutral <|end|>"}
+{"text": "<|user|>\nClassify the sentiment (Positive, Negative, or Neutral) for this ServiceNow ticket text:\nFollowing up on ticket INC26007. <|end|>\n<|assistant|> \nNeutral <|end|>"}
+{"text": "<|user|>\nClassify the sentiment (Positive, Negative, or Neutral) for this ServiceNow ticket text:\nPlease provide info on MFA setup. <|end|>\n<|assistant|> \nNeutral <|end|>"}
+{"text": "<|user|>\nClassify the sentiment (Positive, Negative, or Neutral) for this ServiceNow ticket text:\nNeed standard laptop for new employee. <|end|>\n<|assistant|> \nNeutral <|end|>"}
+{"text": "<|user|>\nClassify the sentiment (Positive, Negative, or Neutral) for this ServiceNow ticket text:\nThanks! SAP working perfectly now. <|end|>\n<|assistant|> \nPositive <|end|>"}
+{"text": "<|user|>\nClassify the sentiment (Positive, Negative, or Neutral) for this ServiceNow ticket text:\nAccess granted. Thank you! <|end|>\n<|assistant|> \nPositive <|end|>"}
+{"text": "<|user|>\nClassify the sentiment (Positive, Negative, or Neutral) for this ServiceNow ticket text:\nMy laptop is broken. Need replacement. <|end|>\n<|assistant|> \nNegative <|end|>"}
+{"text": "<|user|>\nClassify the sentiment (Positive, Negative, or Neutral) for this ServiceNow ticket text:\nConfirmed fix is working. Closing ticket now. <|end|>\n<|assistant|> \nPositive <|end|>"}
+{"text": "<|user|>\nClassify the sentiment (Positive, Negative, or Neutral) for this ServiceNow ticket text:\nRequesting access to SAP for new user Stacy Miller. <|end|>\n<|assistant|> \nNeutral <|end|>"}
+{"text": "<|user|>\nClassify the sentiment (Positive, Negative, or Neutral) for this ServiceNow ticket text:\nNetwork connection keeps dropping in East Richard. <|end|>\n<|assistant|> \nNegative <|end|>"}
+{"text": "<|user|>\nClassify the sentiment (Positive, Negative, or Neutral) for this ServiceNow ticket text:\nUser Nicole Erickson reporting issue with printer at Scottton. <|end|>\n<|assistant|> \nNeutral <|end|>"}
+{"text": "<|user|>\nClassify the sentiment (Positive, Negative, or Neutral) for this ServiceNow ticket text:\nUnacceptable performance for Portal. <|end|>\n<|assistant|> \nNegative <|end|>"}
+{"text": "<|user|>\nClassify the sentiment (Positive, Negative, or Neutral) for this ServiceNow ticket text:\nThanks! Portal working perfectly now. <|end|>\n<|assistant|> \nPositive <|end|>"}
+{"text": "<|user|>\nClassify the sentiment (Positive, Negative, or Neutral) for this ServiceNow ticket text:\nMy monitor is broken. Need replacement. <|end|>\n<|assistant|> \nNegative <|end|>"}
+{"text": "<|user|>\nClassify the sentiment (Positive, Negative, or Neutral) for this ServiceNow ticket text:\nSystem crash on SRV-MOUTH-1. Lost work! <|end|>\n<|assistant|> \nNegative <|end|>"}
+{"text": "<|user|>\nClassify the sentiment (Positive, Negative, or Neutral) for this ServiceNow ticket text:\nFollowing up on ticket INC43150. <|end|>\n<|assistant|> \nNeutral <|end|>"}
+{"text": "<|user|>\nClassify the sentiment (Positive, Negative, or Neutral) for this ServiceNow ticket text:\nAdditional Comment: Any update on this request? <|end|>\n<|assistant|> \nNeutral <|end|>"}
+{"text": "<|user|>\nClassify the sentiment (Positive, Negative, or Neutral) for this ServiceNow ticket text:\nThanks! Outlook working perfectly now. <|end|>\n<|assistant|> \nPositive <|end|>"}
+{"text": "<|user|>\nClassify the sentiment (Positive, Negative, or Neutral) for this ServiceNow ticket text:\nMy printer is broken. Need replacement. <|end|>\n<|assistant|> \nNegative <|end|>"}
+{"text": "<|user|>\nClassify the sentiment (Positive, Negative, or Neutral) for this ServiceNow ticket text:\nUnacceptable performance for VPN. <|end|>\n<|assistant|> \nNegative <|end|>"}
+{"text": "<|user|>\nClassify the sentiment (Positive, Negative, or Neutral) for this ServiceNow ticket text:\nSolution did not work. Problem persists. <|end|>\n<|assistant|> \nNegative <|end|>"}
+{"text": "<|user|>\nClassify the sentiment (Positive, Negative, or Neutral) for this ServiceNow ticket text:\nNeed standard phone for new employee. <|end|>\n<|assistant|> \nNeutral <|end|>"}
+{"text": "<|user|>\nClassify the sentiment (Positive, Negative, or Neutral) for this ServiceNow ticket text:\nUnacceptable performance for Outlook. <|end|>\n<|assistant|> \nNegative <|end|>"}
+{"text": "<|user|>\nClassify the sentiment (Positive, Negative, or Neutral) for this ServiceNow ticket text:\nPassword reset required for Kimberly Reeves. <|end|>\n<|assistant|> \nNeutral <|end|>"}
+{"text": "<|user|>\nClassify the sentiment (Positive, Negative, or Neutral) for this ServiceNow ticket text:\nPlease provide info on MFA setup. <|end|>\n<|assistant|> \nNeutral <|end|>"}
+{"text": "<|user|>\nClassify the sentiment (Positive, Negative, or Neutral) for this ServiceNow ticket text:\nPassword reset required for Regina Peterson. <|end|>\n<|assistant|> \nNeutral <|end|>"}
+{"text": "<|user|>\nClassify the sentiment (Positive, Negative, or Neutral) for this ServiceNow ticket text:\nFollowing up on ticket INC47468. <|end|>\n<|assistant|> \nNeutral <|end|>"}
+{"text": "<|user|>\nClassify the sentiment (Positive, Negative, or Neutral) for this ServiceNow ticket text:\nStill waiting for update from yesterday. Very frustrating. <|end|>\n<|assistant|> \nNegative <|end|>"}
+{"text": "<|user|>\nClassify the sentiment (Positive, Negative, or Neutral) for this ServiceNow ticket text:\nCannot login to SAP. Error E565. Urgent! <|end|>\n<|assistant|> \nNegative <|end|>"}
+{"text": "<|user|>\nClassify the sentiment (Positive, Negative, or Neutral) for this ServiceNow ticket text:\nNetwork connection keeps dropping in North Angelaville. <|end|>\n<|assistant|> \nNegative <|end|>"}
+{"text": "<|user|>\nClassify the sentiment (Positive, Negative, or Neutral) for this ServiceNow ticket text:\nProblem solved after following your steps. <|end|>\n<|assistant|> \nPositive <|end|>"}
+{"text": "<|user|>\nClassify the sentiment (Positive, Negative, or Neutral) for this ServiceNow ticket text:\nRequesting access to VPN for new user Kelly Smith. <|end|>\n<|assistant|> \nNeutral <|end|>"}
+{"text": "<|user|>\nClassify the sentiment (Positive, Negative, or Neutral) for this ServiceNow ticket text:\nGreat job resolving the outage! <|end|>\n<|assistant|> \nPositive <|end|>"}
+{"text": "<|user|>\nClassify the sentiment (Positive, Negative, or Neutral) for this ServiceNow ticket text:\nNetwork connection keeps dropping in Port Scott. <|end|>\n<|assistant|> \nNegative <|end|>"}
+{"text": "<|user|>\nClassify the sentiment (Positive, Negative, or Neutral) for this ServiceNow ticket text:\nRequesting access to Salesforce for new user Olivia Stephens. <|end|>\n<|assistant|> \nNeutral <|end|>"}
+{"text": "<|user|>\nClassify the sentiment (Positive, Negative, or Neutral) for this ServiceNow ticket text:\nSystem crash on SRV-MEMORY-8. Lost work! <|end|>\n<|assistant|> \nNegative <|end|>"}
+{"text": "<|user|>\nClassify the sentiment (Positive, Negative, or Neutral) for this ServiceNow ticket text:\nVM provisioning request. <|end|>\n<|assistant|> \nNeutral <|end|>"}
+{"text": "<|user|>\nClassify the sentiment (Positive, Negative, or Neutral) for this ServiceNow ticket text:\nVPN extremely slow today. <|end|>\n<|assistant|> \nNegative <|end|>"}
+{"text": "<|user|>\nClassify the sentiment (Positive, Negative, or Neutral) for this ServiceNow ticket text:\nInquiry about status of Transform Web-Enabled Applications project. <|end|>\n<|assistant|> \nNeutral <|end|>"}
+{"text": "<|user|>\nClassify the sentiment (Positive, Negative, or Neutral) for this ServiceNow ticket text:\nUnacceptable performance for Teams. <|end|>\n<|assistant|> \nNegative <|end|>"}
+{"text": "<|user|>\nClassify the sentiment (Positive, Negative, or Neutral) for this ServiceNow ticket text:\nSolution did not work. Problem persists. <|end|>\n<|assistant|> \nNegative <|end|>"}
+{"text": "<|user|>\nClassify the sentiment (Positive, Negative, or Neutral) for this ServiceNow ticket text:\nPlease provide info on MFA setup. <|end|>\n<|assistant|> \nNeutral <|end|>"}
+{"text": "<|user|>\nClassify the sentiment (Positive, Negative, or Neutral) for this ServiceNow ticket text:\nIssue resolved quickly by Network. Appreciate the help! <|end|>\n<|assistant|> \nPositive <|end|>"}
+{"text": "<|user|>\nClassify the sentiment (Positive, Negative, or Neutral) for this ServiceNow ticket text:\nProblem solved after following your steps. <|end|>\n<|assistant|> \nPositive <|end|>"}
+{"text": "<|user|>\nClassify the sentiment (Positive, Negative, or Neutral) for this ServiceNow ticket text:\nPassword reset required for Terry Kim. <|end|>\n<|assistant|> \nNeutral <|end|>"}
+{"text": "<|user|>\nClassify the sentiment (Positive, Negative, or Neutral) for this ServiceNow ticket text:\nPassword reset required for Nicholas Rice. <|end|>\n<|assistant|> \nNeutral <|end|>"}
+{"text": "<|user|>\nClassify the sentiment (Positive, Negative, or Neutral) for this ServiceNow ticket text:\nCannot login to VPN. Error E173. Urgent! <|end|>\n<|assistant|> \nNegative <|end|>"}
+{"text": "<|user|>\nClassify the sentiment (Positive, Negative, or Neutral) for this ServiceNow ticket text:\nUser Evan Kirk reporting issue with laptop at Gomezview. <|end|>\n<|assistant|> \nNeutral <|end|>"}
+{"text": "<|user|>\nClassify the sentiment (Positive, Negative, or Neutral) for this ServiceNow ticket text:\nCannot login to VPN. Error E511. Urgent! <|end|>\n<|assistant|> \nNegative <|end|>"}
+{"text": "<|user|>\nClassify the sentiment (Positive, Negative, or Neutral) for this ServiceNow ticket text:\nStill waiting for update from yesterday. Very frustrating. <|end|>\n<|assistant|> \nNegative <|end|>"}
+{"text": "<|user|>\nClassify the sentiment (Positive, Negative, or Neutral) for this ServiceNow ticket text:\nStill waiting for update from yesterday. Very frustrating. <|end|>\n<|assistant|> \nNegative <|end|>"}
+{"text": "<|user|>\nClassify the sentiment (Positive, Negative, or Neutral) for this ServiceNow ticket text:\nCannot login to Portal. Error E853. Urgent! <|end|>\n<|assistant|> \nNegative <|end|>"}
+{"text": "<|user|>\nClassify the sentiment (Positive, Negative, or Neutral) for this ServiceNow ticket text:\nNew phone works great. <|end|>\n<|assistant|> \nPositive <|end|>"}
+{"text": "<|user|>\nClassify the sentiment (Positive, Negative, or Neutral) for this ServiceNow ticket text:\nSolution did not work. Problem persists. <|end|>\n<|assistant|> \nNegative <|end|>"}
+{"text": "<|user|>\nClassify the sentiment (Positive, Negative, or Neutral) for this ServiceNow ticket text:\nResolution Note: Restarted service on SRV-IMAGE-6. User confirmed fix. <|end|>\n<|assistant|> \nNeutral <|end|>"}
+{"text": "<|user|>\nClassify the sentiment (Positive, Negative, or Neutral) for this ServiceNow ticket text:\nNeed standard printer for new employee. <|end|>\n<|assistant|> \nNeutral <|end|>"}
+{"text": "<|user|>\nClassify the sentiment (Positive, Negative, or Neutral) for this ServiceNow ticket text:\nPlease provide info on MFA setup. <|end|>\n<|assistant|> \nNeutral <|end|>"}
+{"text": "<|user|>\nClassify the sentiment (Positive, Negative, or Neutral) for this ServiceNow ticket text:\nStill waiting for update from yesterday. Very frustrating. <|end|>\n<|assistant|> \nNegative <|end|>"}
+{"text": "<|user|>\nClassify the sentiment (Positive, Negative, or Neutral) for this ServiceNow ticket text:\nMy laptop is broken. Need replacement. <|end|>\n<|assistant|> \nNegative <|end|>"}
+{"text": "<|user|>\nClassify the sentiment (Positive, Negative, or Neutral) for this ServiceNow ticket text:\nResolution Note: Restarted service on SRV-APPROACH-3. User confirmed fix. <|end|>\n<|assistant|> \nNeutral <|end|>"}
+{"text": "<|user|>\nClassify the sentiment (Positive, Negative, or Neutral) for this ServiceNow ticket text:\nSolution did not work. Problem persists. <|end|>\n<|assistant|> \nNegative <|end|>"}
+{"text": "<|user|>\nClassify the sentiment (Positive, Negative, or Neutral) for this ServiceNow ticket text:\nNew printer works great. <|end|>\n<|assistant|> \nPositive <|end|>"}
+{"text": "<|user|>\nClassify the sentiment (Positive, Negative, or Neutral) for this ServiceNow ticket text:\nNetwork connection keeps dropping in Susanmouth. <|end|>\n<|assistant|> \nNegative <|end|>"}
+{"text": "<|user|>\nClassify the sentiment (Positive, Negative, or Neutral) for this ServiceNow ticket text:\nInquiry about status of Cultivate Sticky Markets project. <|end|>\n<|assistant|> \nNeutral <|end|>"}
+{"text": "<|user|>\nClassify the sentiment (Positive, Negative, or Neutral) for this ServiceNow ticket text:\nNetwork connection keeps dropping in Donaldview. <|end|>\n<|assistant|> \nNegative <|end|>"}
+{"text": "<|user|>\nClassify the sentiment (Positive, Negative, or Neutral) for this ServiceNow ticket text:\nExcellent support, problem fixed. <|end|>\n<|assistant|> \nPositive <|end|>"}
+{"text": "<|user|>\nClassify the sentiment (Positive, Negative, or Neutral) for this ServiceNow ticket text:\nPlease provide info on MFA setup. <|end|>\n<|assistant|> \nNeutral <|end|>"}
+{"text": "<|user|>\nClassify the sentiment (Positive, Negative, or Neutral) for this ServiceNow ticket text:\nStill waiting for update from yesterday. Very frustrating. <|end|>\n<|assistant|> \nNegative <|end|>"}
+{"text": "<|user|>\nClassify the sentiment (Positive, Negative, or Neutral) for this ServiceNow ticket text:\nVM provisioning request. <|end|>\n<|assistant|> \nNeutral <|end|>"}
+{"text": "<|user|>\nClassify the sentiment (Positive, Negative, or Neutral) for this ServiceNow ticket text:\nAccess granted. Thank you! <|end|>\n<|assistant|> \nPositive <|end|>"}
+{"text": "<|user|>\nClassify the sentiment (Positive, Negative, or Neutral) for this ServiceNow ticket text:\nRequesting access to Salesforce for new user Erica Hernandez. <|end|>\n<|assistant|> \nNeutral <|end|>"}
+{"text": "<|user|>\nClassify the sentiment (Positive, Negative, or Neutral) for this ServiceNow ticket text:\nSubmitting request for software license for Teams. <|end|>\n<|assistant|> \nNeutral <|end|>"}
+{"text": "<|user|>\nClassify the sentiment (Positive, Negative, or Neutral) for this ServiceNow ticket text:\nCannot login to Teams. Error E127. Urgent! <|end|>\n<|assistant|> \nNegative <|end|>"}
+{"text": "<|user|>\nClassify the sentiment (Positive, Negative, or Neutral) for this ServiceNow ticket text:\nSubmitting request for software license for SAP. <|end|>\n<|assistant|> \nNeutral <|end|>"}
+{"text": "<|user|>\nClassify the sentiment (Positive, Negative, or Neutral) for this ServiceNow ticket text:\nWork Note: Checked logs on SRV-VARIOUS-4. Assigning to ServerTeam. <|end|>\n<|assistant|> \nNeutral <|end|>"}
+{"text": "<|user|>\nClassify the sentiment (Positive, Negative, or Neutral) for this ServiceNow ticket text:\nAdditional Comment: Any update on this request? <|end|>\n<|assistant|> \nNeutral <|end|>"}
+{"text": "<|user|>\nClassify the sentiment (Positive, Negative, or Neutral) for this ServiceNow ticket text:\nWork Note: Checked logs on SRV-THESE-5. Assigning to Network. <|end|>\n<|assistant|> \nNeutral <|end|>"}
+{"text": "<|user|>\nClassify the sentiment (Positive, Negative, or Neutral) for this ServiceNow ticket text:\nRequesting access to VPN for new user Alexander Brown. <|end|>\n<|assistant|> \nNeutral <|end|>"}
+{"text": "<|user|>\nClassify the sentiment (Positive, Negative, or Neutral) for this ServiceNow ticket text:\nIssue resolved quickly by Network. Appreciate the help! <|end|>\n<|assistant|> \nPositive <|end|>"}
+{"text": "<|user|>\nClassify the sentiment (Positive, Negative, or Neutral) for this ServiceNow ticket text:\nWork Note: Checked logs on SRV-PRODUCT-3. Assigning to ServerTeam. <|end|>\n<|assistant|> \nNeutral <|end|>"}
+{"text": "<|user|>\nClassify the sentiment (Positive, Negative, or Neutral) for this ServiceNow ticket text:\nAdditional Comment: Any update on this request? <|end|>\n<|assistant|> \nNeutral <|end|>"}

@@ -173,3 +173,6 @@ cython_debug/
 # PyPI configuration file
 .pypirc
 *sentiment-finetuned-mps/
+.DS_Store
+fused_model/
+*.gguf

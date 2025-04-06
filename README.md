@@ -44,73 +44,55 @@ This project implements a sentiment analysis system that can classify text into 
 
 If you don't have your own labeled sentiment data, you can generate synthetic service desk ticket data:
 
-```
+```bash
 python generate.py
 ```
 
-This will create a CSV file (`synthetic_servicenow_sentiment_1000.csv`) with 1000 synthetic records.
 
-### Train the Model
+## MLX Train
 
-Train the sentiment analysis model on your data:
-
-```
-python train.py
+```bash
+pip install mlx_lm
 ```
 
-By default, this uses DistilBERT, but you can modify the configuration in `train.py` to use other models like BERT, RoBERTa, or ALBERT.
-
-### Run the API Server
-
-Start the Flask API server to serve predictions:
-
-```
-python app.py
+```bash
+mlx_lm.lora --model microsoft/Phi-3-mini-4k-instruct --train --data ./data --iters 1000
 ```
 
-The server will be available at `http://localhost:5145`.
+## MLX Evaluate
 
-### Make Predictions
-
-Send a POST request to the API:
-
-```
-curl -X POST http://localhost:5145/predict \
-  -H "Content-Type: application/json" \
-  -d '{"text":"Thanks! The app is working perfectly now."}'
+```bash
+mlx_lm.generate --model microsoft/Phi-3-mini-4k-instruct --adapter-path ./adapters --max-token 2048 --prompt "<|user|>\nClassify the sentiment (Positive, Negative, or Neutral) for this ServiceNow ticket text:\nRequesting access to Outlook for new user Marc Crawford.<|end|>"
 ```
 
-## Project Structure
 
-- `generate.py`: Script to generate synthetic sentiment data
-- `train.py`: Script to train and evaluate the sentiment analysis model
-- `app.py`: Flask API for serving predictions
-- `install.sh`: Installation script for dependencies
-- `requirements.txt`: List of Python dependencies
-- `sentiment-finetuned-mps/`: Directory where the trained model is saved (created after training)
+## without adaptors
+```bash
+mlx_lm.generate --model microsoft/Phi-3-mini-4k-instruct --max-token 2048 --prompt "<|user|>\nClassify the sentiment (Positive, Negative, or Neutral) for this ServiceNow ticket text:\nRequesting access to Outlook for new user Marc Crawford.<|end|>"
+```
 
-## Model Configuration
+## merge model
+```bash
+mlx_lm.fuse --model microsoft/Phi-3-mini-4k-instruct
+```
 
-The default configuration uses DistilBERT for a good balance of performance and speed. You can modify the following parameters in `train.py`:
 
-- `MODEL_CHECKPOINT`: Choose the base model (DistilBERT, BERT, RoBERTa, ALBERT)
-- `NUM_EPOCHS`: Number of training epochs
-- `LEARNING_RATE`: Learning rate for training
-- `TRAIN_BATCH_SIZE`: Batch size for training
-- `MAX_TOKEN_LENGTH`: Maximum token length for input text
+## Convert to gguf
 
-## Performance Considerations
+```bash
+source venv/bin/activate
+python convert_hf_to_gguf.py \
+  /Users/chandima/repos/sentiment-analysis-model/fused_model/ \
+  --outfile /Users/chandima/repos/sentiment-analysis-model/gguf/sentiment-finetuned-mps.gguf \
+  --outtype f16 # Or f32, q8_0, q4_k_m etc.
+```
 
-- The model is optimized for Apple Silicon using MPS acceleration
-- For larger models or datasets, consider increasing `GRADIENT_ACCUMULATION_STEPS` and reducing batch sizes
-- FP16 precision can be enabled for potential speedup on compatible hardware
+## Create ollama model
+```bash
+ollama create phi3ft -f Modelfile
+```
 
-## License
-
-[Specify your license here]
-
-## Acknowledgments
-
-- Hugging Face Transformers library
-- PyTorch
-- Flask
+## Run ollama model
+```bash
+ollama run phi3ft "<|user|>\nClassify the sentiment (Positive, Negative, or Neutral) for this ServiceNow ticket text:\nRequesting access to Outlook for new user Marc Crawford.<|end|>" 
+```

@@ -1,254 +1,165 @@
-import pandas as pd
+import json
 import random
 from faker import Faker
 import math
+import os
 
 fake = Faker()
 
 # --- Configuration ---
-NUM_RECORDS_TARGET = 1000
-OUTPUT_CSV_FILE = "synthetic_servicenow_sentiment_1000.csv"
+NUM_RECORDS_TOTAL = 1000
+OUTPUT_DIR = "data"
+TRAIN_FILENAME = "train.jsonl"
+VALID_FILENAME = "valid.jsonl" # Using .jsonl for consistency
+TEST_FILENAME = "test.jsonl"
 
-# --- Content Templates & Keywords ---
+# Define split ratios (adjust if needed)
+TRAIN_RATIO = 0.70
+VALID_RATIO = 0.15
+# TEST_RATIO implicitly becomes 1.0 - TRAIN_RATIO - VALID_RATIO
+
+INSTRUCTION_PROMPT = "Classify the sentiment (Positive, Negative, or Neutral) for this ServiceNow ticket text:"
+
+# --- Content Templates & Keywords (Simplified from previous example) ---
 PLACEHOLDERS = {
     "user": fake.name,
-    "app": lambda: random.choice(["SAP", "Outlook", "Teams", "VPN Client", "Salesforce", "Internal Portal", "Finance Tool", "HR System"]),
-    "device": lambda: random.choice(["laptop", "monitor", "keyboard", "mouse", "docking station", "printer", "desk phone"]),
-    "server": lambda: f"{random.choice(['APP', 'DB', 'WEB', 'DC'])}-{fake.word().upper()}-{random.randint(1, 99):02d}",
+    "app": lambda: random.choice(["SAP", "Outlook", "Teams", "VPN", "Salesforce", "Portal"]),
+    "device": lambda: random.choice(["laptop", "monitor", "printer", "phone"]),
+    "server": lambda: f"SRV-{fake.word().upper()}-{random.randint(1, 9):01d}",
     "location": fake.city,
-    "error_code": lambda: f"{random.choice(['E', 'W', 'C'])}{random.randint(100, 9999)}",
-    "group": lambda: random.choice(["Network Team", "Help Desk", "Server Support", "App Support Team", "Security Ops", "Desktop Support"]),
+    "error_code": lambda: f"E{random.randint(100, 999)}",
+    "group": lambda: random.choice(["Network", "HelpDesk", "ServerTeam", "AppSupport"]),
 }
 
 def fill_placeholders(text):
     for key, generator in PLACEHOLDERS.items():
         placeholder = f"[{key.upper()}]"
-        # Use a loop in case a placeholder appears multiple times
         while placeholder in text:
+            # Use loop to replace multiple occurrences if any
             text = text.replace(placeholder, generator(), 1)
     return text
 
-# Sentiment-associated phrases (simplified)
-NEGATIVE_PATTERNS = [
-    "Cannot login to [APP]. Getting error [ERROR_CODE]. Urgent!",
-    "My [DEVICE] is broken. Need a replacement ASAP.",
-    "[APP] is extremely slow today. Taking minutes to load.",
-    "System crash on [SERVER]. Lost work. Please investigate immediately.",
-    "Still waiting for an update on my issue from yesterday.",
-    "The provided solution did not work. Problem persists.",
-    "Error [ERROR_CODE] when trying to access the shared drive.",
-    "Network connection keeps dropping in [LOCATION] office.",
-    "This is unacceptable performance for [APP].",
-    "Frustrated with the constant issues with the [DEVICE].",
-]
-POSITIVE_PATTERNS = [
-    "Thanks! [APP] is working perfectly now.",
-    "Issue resolved quickly. Appreciate the help from [GROUP].",
-    "The new [DEVICE] works great. Setup was smooth.",
-    "Problem solved after the steps you provided.",
-    "Confirmed fix is working. Closing the ticket.",
-    "Great job on resolving the outage so fast!",
-    "Access granted. Thank you for the prompt response.",
-    "Finally working again after restart. Thanks!",
-    "Excellent support, problem fixed.",
-    "User [USER] confirmed resolution.",
-]
-NEUTRAL_PATTERNS_DESC = [
-    "Requesting access to [APP] for new user [USER].",
-    "Need standard [DEVICE] for employee starting next week.",
-    "Password reset required for [USER]'s account.",
-    "Inquiry about the status of upgrade project '[PROJECT_NAME]'.", # Needs a project name placeholder/generator
-    "Submitting request for software license for [APP].",
-    "Following up on previous ticket [TICKET_ID].", # Needs a ticket id placeholder
-    "User [USER] reporting issue with [DEVICE] at [LOCATION].",
-    "Requesting information on how to configure MFA.",
-    "Hardware refresh needed for [USER]. See attached list.",
-    "VM provisioning request based on template '[TEMPLATE_NAME]'.", # Needs template name
-]
-NEUTRAL_PATTERNS_COMMENT_WN = [ # Work Notes
-    "Checked logs on [SERVER]. Found error [ERROR_CODE].",
-    "Assigned ticket to [GROUP].",
-    "Attempted remote connection to user's machine. Failed.",
-    "Gathering more information from user [USER].",
-    "Escalating issue to Tier 3 support / [GROUP].",
-    "Monitoring system performance after patch deployment.",
-    "Ordered replacement [DEVICE]. ETA 2 days.",
-    "Reset password for [USER] and provided temporary one.",
-    "Investigating network latency between [LOCATION] and DC.",
-    "Applied configuration change as per documentation.",
-]
-NEUTRAL_PATTERNS_COMMENT_AC = [ # Additional Comments (often neutral status checks)
-    "Any update on this request?",
-    "Just checking in on the status.",
-    "Following up as requested.",
-    "Can you please provide an estimated resolution time?",
-    "Is there any further information needed from my side?",
-]
-NEUTRAL_PATTERNS_RES = [ # Resolution Notes (often neutral factual)
-    "Resolved by restarting the [APP] service on [SERVER].",
-    "User [USER] confirmed issue resolved after clearing cache.",
-    "Provided user with documentation link. Closing ticket.",
-    "Access granted to [APP]. User notified.",
-    "Replaced faulty [DEVICE]. Asset tag updated.",
-    "Password reset completed. User able to login.",
-    "Root cause identified as [CAUSE]. Permanent fix tracked in PRB[NUMBER].", # Needs cause/number
-    "Software installed and verified with user.",
-    "Network configuration corrected by [GROUP].",
-    "Closed per user request.",
-]
+# Simplified patterns mapped directly to sentiment
+SENTIMENT_PATTERNS = {
+    "Negative": [
+        "Cannot login to [APP]. Error [ERROR_CODE]. Urgent!",
+        "My [DEVICE] is broken. Need replacement.",
+        "[APP] extremely slow today.",
+        "System crash on [SERVER]. Lost work!",
+        "Still waiting for update from yesterday. Very frustrating.",
+        "Solution did not work. Problem persists.",
+        "Network connection keeps dropping in [LOCATION].",
+        "Unacceptable performance for [APP].",
+    ],
+    "Positive": [
+        "Thanks! [APP] working perfectly now.",
+        "Issue resolved quickly by [GROUP]. Appreciate the help!",
+        "New [DEVICE] works great.",
+        "Problem solved after following your steps.",
+        "Confirmed fix is working. Closing ticket now.",
+        "Great job resolving the outage!",
+        "Access granted. Thank you!",
+        "Excellent support, problem fixed.",
+    ],
+    "Neutral": [
+        "Requesting access to [APP] for new user [USER].",
+        "Need standard [DEVICE] for new employee.",
+        "Password reset required for [USER].",
+        "Inquiry about status of [PROJECT_NAME] project.", # Needs placeholder
+        "Submitting request for software license for [APP].",
+        "Following up on ticket [TICKET_ID].", # Needs placeholder
+        "User [USER] reporting issue with [DEVICE] at [LOCATION].",
+        "Please provide info on MFA setup.",
+        "VM provisioning request.",
+        "Work Note: Checked logs on [SERVER]. Assigning to [GROUP].",
+        "Additional Comment: Any update on this request?",
+        "Resolution Note: Restarted service on [SERVER]. User confirmed fix.",
+    ]
+}
 
 # --- Generation Logic ---
-data = []
-ticket_counter_inc = random.randint(10000, 20000)
-ticket_counter_req = random.randint(50000, 60000)
-entry_id_counter = 1
+all_records = []
+records_generated = 0
 
-while len(data) < NUM_RECORDS_TARGET:
-    is_incident = random.random() < 0.65 # More incidents than requests
+print(f"Generating {NUM_RECORDS_TOTAL} synthetic records...")
 
-    if is_incident:
-        ticket_id = f"INC{ticket_counter_inc}"
-        ticket_counter_inc += 1
-        # Simulate shorter resolution times for incidents (highly variable)
-        resolution_time = random.randint(15, 1440) # 15 mins to 24 hours
-        num_entries = random.randint(3, 6) # Incidents often have more back-and-forth
+while records_generated < NUM_RECORDS_TOTAL:
+    # Choose a sentiment category somewhat randomly
+    rand_choice = random.random()
+    if rand_choice < 0.40:
+        sentiment = "Negative"
+    elif rand_choice < 0.85:
+        sentiment = "Neutral"
     else:
-        ticket_id = f"REQ{ticket_counter_req}"
-        ticket_counter_req += 1
-        # Simulate potentially longer resolution times for requests
-        resolution_time = random.randint(60, 4320) # 1 hour to 3 days
-        num_entries = random.randint(2, 4) # Requests can be simpler
+        sentiment = "Positive"
 
-    current_ticket_entries = []
+    # Select a random pattern for that sentiment
+    text_pattern = random.choice(SENTIMENT_PATTERNS[sentiment])
 
-    # 1. Short Description
-    sdesc_sentiment = "Neutral"
-    sdesc_text = ""
-    if is_incident:
-        if random.random() < 0.7: # Incident short desc often implies negativity
-             sdesc_sentiment = "Negative"
-             sdesc_text = fill_placeholders(random.choice([
-                 f"[APP] Down", f"Cannot Login to [APP]", f"[DEVICE] Broken",
-                 f"Network Slow in [LOCATION]", f"Urgent: [APP] Access Issue"
-             ]))
-        else:
-             sdesc_sentiment = "Neutral" # Sometimes just factual
-             sdesc_text = fill_placeholders(random.choice([
-                 f"Issue with [DEVICE]", f"Login Problem [APP]", f"Connectivity Error"
-             ]))
-    else: # Request
-        sdesc_sentiment = "Neutral"
-        sdesc_text = fill_placeholders(random.choice([
-            f"Request for [APP] Access", f"New [DEVICE] Request", f"Password Reset",
-            f"Software Installation [APP]", f"Information Request"
-        ]))
+    # Fill placeholders (add simple ones for patterns needing them)
+    text_content = fill_placeholders(text_pattern)\
+                   .replace("[PROJECT_NAME]", fake.bs().title())\
+                   .replace("[TICKET_ID]", f"{random.choice(['INC','REQ'])}{random.randint(10000,99999)}")
 
-    current_ticket_entries.append({
-        "entry_id": entry_id_counter, "ticket_ref_id": ticket_id, "source_field": "short_description",
-        "text_content": sdesc_text, "sentiment": sdesc_sentiment, "resolution_time_minutes": resolution_time
-    })
-    entry_id_counter += 1
+    # Construct the text payload in the desired format
+    mlx_text_payload = f"<|user|>\n{INSTRUCTION_PROMPT}\n{text_content} <|end|>\n<|assistant|> \n{sentiment} <|end|>"
 
-    # 2. Description
-    desc_sentiment = "Neutral"
-    desc_text = ""
-    if is_incident:
-        desc_sentiment = "Negative" # Usually negative detail
-        desc_text = fill_placeholders(random.choice(NEGATIVE_PATTERNS))
-    else: # Request
-        desc_sentiment = "Neutral"
-        # Add placeholders needed by NEUTRAL_PATTERNS_DESC here if desired
-        desc_text = fill_placeholders(random.choice(NEUTRAL_PATTERNS_DESC)
-                                      .replace("[PROJECT_NAME]", fake.bs().title())
-                                      .replace("[TICKET_ID]", f"INC{random.randint(10000, ticket_counter_inc-1)}")
-                                      .replace("[TEMPLATE_NAME]", f"{random.choice(['Dev','Test','Standard'])} VM Template")
-                                      )
+    # Create the JSON object
+    record = {"text": mlx_text_payload}
+    all_records.append(record)
+    records_generated += 1
 
-    current_ticket_entries.append({
-        "entry_id": entry_id_counter, "ticket_ref_id": ticket_id, "source_field": "description",
-        "text_content": desc_text, "sentiment": desc_sentiment, "resolution_time_minutes": resolution_time
-    })
-    entry_id_counter += 1
+print(f"Generated {len(all_records)} records.")
 
+# --- Shuffle and Split Data ---
+print("Shuffling and splitting data...")
+random.shuffle(all_records)
 
-    # 3. Comments (Work Notes & Additional Comments)
-    num_comments = num_entries - 3 # Adjusted based on total entries desired
-    if num_comments < 0: num_comments = 0
-    comment_sentiments = [] # Track sentiments to potentially influence resolution/final comment
+# Calculate split points
+num_train = int(NUM_RECORDS_TOTAL * TRAIN_RATIO)
+num_valid = int(NUM_RECORDS_TOTAL * VALID_RATIO)
+# num_test is the remainder
 
-    for i in range(num_comments):
-        is_worknote = random.random() < 0.6 # More likely a work note
-        comment_sentiment = "Neutral"
-        comment_text = ""
+train_records = all_records[:num_train]
+valid_records = all_records[num_train : num_train + num_valid]
+test_records = all_records[num_train + num_valid :]
 
-        if is_worknote:
-            comment_text = fill_placeholders(random.choice(NEUTRAL_PATTERNS_COMMENT_WN))
-        else: # Additional Comment from user
-            # Make user comments sometimes negative, especially if incident isn't resolved
-            if is_incident and i > 0 and random.random() < 0.4: # More likely negative if it's later in an incident
-                comment_sentiment = "Negative"
-                comment_text = fill_placeholders(random.choice([
-                    "Any update? Still blocked.", "This is taking too long.", "Is anyone working on this??",
-                    "This impacts deadline [DATE]. Need resolution!", "No progress reported yet."
-                ]).replace("[DATE]", fake.future_date(end_date="+7d").strftime('%Y-%m-%d')))
-            else:
-                comment_sentiment = "Neutral" # Or just neutral status check
-                comment_text = fill_placeholders(random.choice(NEUTRAL_PATTERNS_COMMENT_AC))
+print(f"Train set size: {len(train_records)}")
+print(f"Validation set size: {len(valid_records)}")
+print(f"Test set size: {len(test_records)}")
 
-        comment_sentiments.append(comment_sentiment)
-        current_ticket_entries.append({
-            "entry_id": entry_id_counter, "ticket_ref_id": ticket_id, "source_field": "comments",
-            "text_content": comment_text, "sentiment": comment_sentiment, "resolution_time_minutes": resolution_time
-        })
-        entry_id_counter += 1
+# --- Create Output Directory ---
+os.makedirs(OUTPUT_DIR, exist_ok=True)
+print(f"Output directory '{OUTPUT_DIR}' created or already exists.")
 
+# --- Write Files ---
+def write_jsonl(filepath, records):
+    """Helper function to write a list of records to a JSON Lines file."""
+    with open(filepath, 'w') as f:
+        for record in records:
+            json.dump(record, f)
+            f.write('\n')
 
-    # 4. Resolution Notes / Final Comment
-    res_sentiment = "Neutral"
-    res_text = ""
-    # Check if there were negative comments to make positive resolution more likely/impactful
-    was_negative_experience = "Negative" in comment_sentiments or sdesc_sentiment == "Negative" or desc_sentiment == "Negative"
+train_filepath = os.path.join(OUTPUT_DIR, TRAIN_FILENAME)
+valid_filepath = os.path.join(OUTPUT_DIR, VALID_FILENAME)
+test_filepath = os.path.join(OUTPUT_DIR, TEST_FILENAME)
 
-    if random.random() < 0.5 or (was_negative_experience and random.random() < 0.8):
-         # More likely to add a positive note if it was a struggle or just randomly
-         res_sentiment = "Positive"
-         # Add placeholders for cause/number if needed
-         res_text = fill_placeholders(random.choice(POSITIVE_PATTERNS))
+print(f"Writing {TRAIN_FILENAME}...")
+write_jsonl(train_filepath, train_records)
 
-    else: # Neutral resolution note
-         res_sentiment = "Neutral"
-         # Add placeholders for cause/number if needed
-         res_text = fill_placeholders(random.choice(NEUTRAL_PATTERNS_RES)
-                                      .replace("[CAUSE]", fake.bs())
-                                      .replace("[NUMBER]", f"{random.randint(1000,9999)}")
-                                      )
+print(f"Writing {VALID_FILENAME}...")
+write_jsonl(valid_filepath, valid_records)
 
-    current_ticket_entries.append({
-        "entry_id": entry_id_counter, "ticket_ref_id": ticket_id, "source_field": "resolution_notes",
-        "text_content": res_text, "sentiment": res_sentiment, "resolution_time_minutes": resolution_time
-    })
-    entry_id_counter += 1
+print(f"Writing {TEST_FILENAME}...")
+write_jsonl(test_filepath, test_records)
 
-    # Add generated entries for this ticket to the main list
-    data.extend(current_ticket_entries)
+print("\nDataset generation and splitting complete.")
+print(f"Files created in directory: '{os.path.abspath(OUTPUT_DIR)}'")
 
-    # Safety break if generation logic has issues
-    if entry_id_counter > NUM_RECORDS_TARGET * 3:
-         print("Warning: Safety break triggered. Check generation logic.")
-         break
-
-
-# --- Create DataFrame and Save ---
-df = pd.DataFrame(data)
-
-# Ensure we have exactly the target number of records (or slightly more/less is ok)
-df = df.head(NUM_RECORDS_TARGET)
-
-print(f"Generated {len(df)} records.")
-print("Sample data:")
-print(df.head())
-print("\nSentiment distribution:")
-print(df['sentiment'].value_counts(normalize=True))
-
-df.to_csv(OUTPUT_CSV_FILE, index=False)
-print(f"\nSynthetic dataset saved to {OUTPUT_CSV_FILE}")
+# --- Optional: Print a sample from train file ---
+print("\n--- Sample line from train.jsonl ---")
+try:
+    with open(train_filepath, 'r') as f_read:
+        print(f_read.readline().strip())
+except FileNotFoundError:
+    print(f"Error: Could not read back file {train_filepath}")
